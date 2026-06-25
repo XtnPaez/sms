@@ -1,136 +1,186 @@
 # Roadmap
 
-> Este roadmap representa la evolución del conocimiento del laboratorio.
+> Este documento describe la evolución prevista del Servicio Meteorológico Social.
 
-No está organizado por fechas.
+No representa un cronograma.
 
-Está organizado por hitos.
+No representa un backlog.
 
-Cada hito habilita el siguiente.
-
----
-
-# Hito 0
-
-## Existe una pregunta
-
-¿Por qué la comunicación política siempre llega cuando el conflicto ya explotó?
+Representa la secuencia mediante la cual el laboratorio espera construir y validar conocimiento.
 
 ---
 
-# Hito 1
+# Índice
 
-## Existe una hipótesis
-
-Una red distribuida de observadores puede detectar señales tempranas de la agenda social.
-
----
-
-# Hito 2
-
-## Existe un método
-
-Definir:
-
-* estación
-* observación
-* protocolo
-* frecuencia
-* devolución
+1. Propósito
+2. Etapas del laboratorio
+3. Estado actual
+4. Criterio de avance
+5. Regla editorial
 
 ---
 
-# Hito 3
+# 1. Propósito
 
-## Existe una infraestructura
+El laboratorio no avanza cuando incorpora tecnología.
 
-* notebook dedicada
-* teléfono
-* chip
-* WhatsApp Business
-* PostgreSQL
-* Git
-* Dashboard mínimo
+Avanza cuando logra responder nuevas preguntas mediante evidencia.
+
+El Roadmap organiza esa evolución.
+
+Cada etapa representa un aumento en la capacidad del método.
 
 ---
 
-# Hito 4
+# 2. Etapas del laboratorio
 
-## Existe una red
+## Etapa 0 — Idea
 
-Primeras estaciones.
+Estado esperado.
 
-Primera comunidad.
+* existe una hipótesis;
+* existe una motivación;
+* todavía no existe un método validado.
 
-Primer protocolo.
+Resultado.
 
----
-
-# Hito 5
-
-## Existen observaciones
-
-Primeras respuestas.
-
-Primer mapa.
-
-Primer conocimiento colectivo.
+Comprensión del problema.
 
 ---
 
-# Hito 6
+## Etapa 1 — Método
 
-## Existe un histórico
+Estado esperado.
 
-Series temporales.
+* existe un modelo conceptual;
+* existe un protocolo;
+* existe una arquitectura;
+* existe un vocabulario común.
 
-Capas territoriales.
+Resultado.
 
-Primeras comparaciones.
-
----
-
-# Hito 7
-
-## Existe un pronóstico
-
-Primer pronóstico territorial.
+El laboratorio puede comenzar a experimentar.
 
 ---
 
-# Hito 8
+## Etapa 2 — Primer experimento
 
-## Existe una recomendación
+Estado esperado.
 
-El pronóstico se transforma en una sugerencia para comunicación política.
+* existe una primera red de estaciones;
+* existen observaciones reales;
+* el protocolo comienza a validarse.
 
----
+Resultado.
 
-# Hito 9
-
-## Existe una validación
-
-Comparación entre:
-
-* pronóstico
-* agenda real
-* medios
-* territorio
+Primera evidencia producida por el método.
 
 ---
 
-# Hito 10
+## Etapa 3 — Fenómenos
 
-## Existe un método
+Estado esperado.
 
-El laboratorio puede responder una pregunta:
+* existen eventos;
+* existen fenómenos identificados;
+* existen indicadores.
 
-¿Vale la pena seguir desarrollando el Servicio Meteorológico Social?
+Resultado.
 
-La respuesta podrá ser:
+El laboratorio comienza a producir conocimiento.
 
-* Sí.
-* No.
-* Todavía no lo sabemos.
+---
 
-Las tres respuestas serán consideradas resultados válidos.
+## Etapa 4 — Pronósticos
+
+Estado esperado.
+
+* existen series históricas;
+* existen pronósticos;
+* comienzan las evaluaciones de precisión.
+
+Resultado.
+
+El laboratorio puede anticipar escenarios probables.
+
+---
+
+## Etapa 5 — Recomendaciones
+
+Estado esperado.
+
+Los pronósticos permiten elaborar recomendaciones para un caso de uso concreto.
+
+Resultado.
+
+Primera aplicación del método.
+
+---
+
+## Etapa 6 — Validación
+
+Estado esperado.
+
+El método es utilizado por más de un experimento o una organización.
+
+Resultado.
+
+Comienza la validación externa.
+
+---
+
+## Etapa 7 — Generalización
+
+Estado esperado.
+
+El método demuestra ser adaptable a distintos dominios.
+
+Resultado.
+
+El Servicio Meteorológico Social deja de depender del caso de uso inicial.
+
+---
+
+# 3. Estado actual
+
+Etapa alcanzada.
+
+☑ Etapa 1 — Método
+
+Próximo objetivo.
+
+☐ Etapa 2 — Primer experimento
+
+El laboratorio se encuentra finalizando la construcción de su marco metodológico.
+
+La siguiente prioridad consiste en obtener evidencia.
+
+No en ampliar la teoría.
+
+---
+
+# 4. Criterio de avance
+
+El laboratorio sólo avanzará de etapa cuando exista evidencia suficiente para justificar el cambio.
+
+No se avanzará por disponibilidad tecnológica.
+
+No se avanzará por cantidad de documentación.
+
+No se avanzará por intuición.
+
+Cada transición deberá apoyarse en resultados experimentales.
+
+---
+
+# 5. Regla editorial
+
+El Roadmap representa la evolución del conocimiento producido por el laboratorio.
+
+No organiza tareas.
+
+No organiza ideas.
+
+No organiza desarrollos tecnológicos.
+
+Cuando una etapa se complete, el laboratorio deberá documentar explícitamente la evidencia que justificó ese avance.

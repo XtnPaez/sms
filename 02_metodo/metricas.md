@@ -1,45 +1,56 @@
 # Métricas
 
-> Este documento define cómo evaluaremos el funcionamiento del Servicio Meteorológico Social. Las métricas no buscan medir únicamente el software. Buscan medir la calidad del método.
+> Este documento define las métricas oficiales del Servicio Meteorológico Social.
+
+Las métricas permiten evaluar el funcionamiento del método.
+
+No evalúan campañas.
+
+No evalúan software.
+
+Evalúan la calidad del laboratorio.
 
 ---
 
 # Índice
 
-1. Objetivo
-2. Filosofía
-3. Métricas de Comunidad
-4. Métricas de Cobertura
-5. Métricas de Observación
-6. Métricas del Modelo
-7. Métricas del Pronóstico
-8. Métricas de Comunicación
-9. Indicadores derivados
-10. Evolución de las métricas
+1. Propósito
+2. Principios
+3. Métricas de la red
+4. Métricas de observación
+5. Métricas analíticas
+6. Métricas de pronóstico
+7. Métricas del laboratorio
 
 ---
 
-# 1. Objetivo
+# 1. Propósito
 
-Todo experimento necesita una forma de evaluar sus resultados.
+Todo método científico necesita una forma de evaluar su desempeño.
 
-El Servicio Meteorológico Social no medirá únicamente cantidad de usuarios o cantidad de respuestas.
+Las métricas permiten medir la evolución del laboratorio de manera objetiva y comparable.
 
-Su objetivo principal consiste en evaluar si el método logra producir conocimiento útil.
+No constituyen objetivos.
 
----
-
-# 2. Filosofía
-
-Una métrica nunca constituye un objetivo.
-
-Las métricas existen para comprender mejor el comportamiento del sistema y facilitar la toma de decisiones.
-
-Cuando una métrica deja de producir conocimiento, debe ser revisada o eliminada.
+Constituyen instrumentos de evaluación.
 
 ---
 
-# 3. Métricas de Comunidad
+# 2. Principios
+
+Toda métrica deberá cumplir los siguientes criterios.
+
+* ser objetiva;
+* ser reproducible;
+* ser comparable en el tiempo;
+* poder calcularse automáticamente;
+* aportar información útil para mejorar el método.
+
+Una métrica que no modifica decisiones probablemente no deba existir.
+
+---
+
+# 3. Métricas de la red
 
 ## Cantidad de estaciones
 
@@ -55,185 +66,170 @@ Cantidad de estaciones que realizaron al menos una observación durante el perí
 
 ## Permanencia
 
-Tiempo promedio de permanencia de una estación dentro de la red.
+Porcentaje de estaciones que continúan participando luego de un período determinado.
 
 ---
-
-## Retención
-
-Porcentaje de estaciones que continúan participando después de:
-
-* 1 semana
-* 1 mes
-* 3 meses
-* 6 meses
-
----
-
-## Incorporación
-
-Cantidad de nuevas estaciones por período.
-
----
-
-# 4. Métricas de Cobertura
 
 ## Cobertura territorial
 
-Porcentaje del territorio que posee al menos una estación.
+Cantidad de unidades territoriales con al menos una estación activa.
 
 ---
 
-## Densidad
+## Densidad territorial
 
-Cantidad de estaciones por unidad territorial.
-
----
-
-## Vacíos
-
-Territorios sin observaciones.
+Relación entre estaciones activas y territorio observado.
 
 ---
 
-## Redundancia
+## Participación
 
-Territorios con exceso de estaciones respecto del promedio.
-
----
-
-# 5. Métricas de Observación
-
-## Frecuencia
-
-Cantidad promedio de observaciones por estación.
+Promedio de observaciones realizadas por estación.
 
 ---
 
-## Continuidad
+# 4. Métricas de observación
 
-Cantidad de períodos consecutivos con participación.
+## Observaciones registradas
 
----
-
-## Diversidad temática
-
-Cantidad de temas diferentes observados por una estación.
+Cantidad total de observaciones.
 
 ---
 
-## Consistencia
+## Calidad de observación
 
-Grado de estabilidad de una estación a lo largo del tiempo.
-
----
-
-## Correlación
-
-Coincidencia entre observaciones realizadas por estaciones cercanas.
-
----
-
-# 6. Métricas del Modelo
-
-## Tiempo de procesamiento
-
-Tiempo necesario para transformar observaciones en indicadores.
-
----
-
-## Cobertura temática
-
-Cantidad de temas detectados.
-
----
-
-## Señales débiles
-
-Cantidad de fenómenos detectados antes de consolidarse.
+Porcentaje de observaciones válidas según el protocolo.
 
 ---
 
 ## Latencia
 
-Tiempo transcurrido entre la aparición de una conversación y su detección por el modelo.
+Tiempo transcurrido entre la ocurrencia del hecho y el registro de la observación.
 
 ---
 
-# 7. Métricas del Pronóstico
+## Continuidad
+
+Regularidad con la que una estación realiza observaciones.
+
+---
+
+## Diversidad territorial
+
+Distribución espacial de las observaciones.
+
+Evita que todo el conocimiento provenga de un único territorio.
+
+---
+
+# 5. Métricas analíticas
+
+## Eventos detectados
+
+Cantidad de eventos identificados.
+
+---
+
+## Fenómenos identificados
+
+Cantidad de fenómenos construidos a partir de eventos.
+
+---
+
+## Indicadores generados
+
+Cantidad de indicadores disponibles para el análisis.
+
+---
+
+## Cobertura histórica
+
+Período de tiempo representado por la evidencia disponible.
+
+---
+
+## Consistencia
+
+Nivel de concordancia entre observaciones independientes referidas al mismo fenómeno.
+
+---
+
+# 6. Métricas de pronóstico
+
+## Pronósticos emitidos
+
+Cantidad de pronósticos generados.
+
+---
 
 ## Anticipación
 
-¿Cuántos días antes detectó el fenómeno?
+Tiempo promedio entre la emisión del pronóstico y la ocurrencia del fenómeno.
 
 ---
 
 ## Precisión
 
-Grado de coincidencia entre el pronóstico y la evolución posterior.
+Grado de coincidencia entre el pronóstico y la evolución observada.
 
 ---
 
-## Confianza
+## Nivel de confianza
 
-Nivel de evidencia disponible para construir el pronóstico.
-
----
-
-## Persistencia
-
-Cantidad de períodos consecutivos durante los cuales un mismo fenómeno permanece activo.
+Confianza asignada al pronóstico según la evidencia disponible.
 
 ---
 
-# 8. Métricas de Comunicación
+## Trazabilidad
 
-## Recomendaciones emitidas
+Capacidad de reconstruir todas las observaciones que dieron origen a un pronóstico.
 
-Cantidad de recomendaciones producidas.
-
----
-
-## Recomendaciones utilizadas
-
-Cantidad de recomendaciones efectivamente adoptadas por el usuario.
+Todo pronóstico deberá ser completamente trazable.
 
 ---
 
-## Utilidad percibida
+# 7. Métricas del laboratorio
 
-Evaluación cualitativa realizada por el consultor.
+## Reproducibilidad
 
----
-
-# 9. Indicadores derivados
-
-A futuro podrán desarrollarse indicadores como:
-
-* Temperatura Social
-* Presión Social
-* Índice de Incertidumbre
-* Índice de Cobertura
-* Índice de Participación
-* Índice de Confianza
-* Índice de Actividad Territorial
-
-Estos indicadores deberán documentarse individualmente antes de incorporarse al método.
+Capacidad de repetir un experimento obteniendo resultados comparables.
 
 ---
 
-# 10. Evolución de las métricas
+## Simplicidad
 
-Las métricas constituyen parte del método.
+Cantidad de conceptos necesarios para explicar el método.
 
-Podrán modificarse a medida que avance el laboratorio.
-
-Toda incorporación, modificación o eliminación deberá quedar registrada en **decisiones.md**.
+La incorporación de nuevos conceptos deberá justificarse mediante una mejora observable.
 
 ---
 
-# Principio general
+## Crecimiento del conocimiento
 
-El éxito del laboratorio no dependerá del tamaño de la comunidad.
+Cantidad de preguntas respondidas respecto del total de preguntas abiertas.
 
-Dependerá de su capacidad para producir conocimiento útil, reproducible y territorialmente consistente.
+Esta constituye una de las métricas principales del laboratorio.
+
+---
+
+## Devolución
+
+Porcentaje de observaciones que generan algún tipo de devolución hacia la red de estaciones.
+
+---
+
+## Evolución del método
+
+Cantidad de modificaciones metodológicas producidas como consecuencia de evidencia experimental.
+
+Idealmente, el método debería estabilizarse con el tiempo.
+
+---
+
+# Regla editorial
+
+Las métricas podrán modificarse únicamente cuando exista evidencia de que dejaron de representar adecuadamente el funcionamiento del laboratorio.
+
+Agregar una nueva métrica implica aumentar la complejidad del método.
+
+Por lo tanto, toda incorporación deberá estar metodológicamente justificada.

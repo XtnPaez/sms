@@ -1,323 +1,221 @@
 # Stack Tecnológico
 
-> Este documento describe la implementación tecnológica del laboratorio. Ninguna de las herramientas aquí mencionadas forma parte del método. Todas podrán cambiar sin modificar la esencia del Servicio Meteorológico Social.
+> Este documento describe la infraestructura tecnológica utilizada por el Servicio Meteorológico Social.
+
+No define el método.
+
+No define la arquitectura conceptual.
+
+Describe únicamente una posible implementación tecnológica del laboratorio.
 
 ---
 
 # Índice
 
-1. Filosofía
-2. Infraestructura
-3. Comunicación
-4. Persistencia
-5. Procesamiento
-6. Inteligencia Artificial
-7. Visualización
-8. Desarrollo
-9. Automatización
-10. Principios del stack
-11. Evolución
+1. Propósito
+2. Principios
+3. Capacidades del laboratorio
+4. Implementación actual
+5. Evolución tecnológica
+6. Regla editorial
 
 ---
 
-# 1. Filosofía
+# 1. Propósito
 
-El método tiene prioridad sobre la tecnología.
+El laboratorio necesita determinadas capacidades tecnológicas para funcionar.
 
-Cada herramienta existe únicamente porque resuelve un problema concreto.
+Cada capacidad podrá implementarse mediante distintas herramientas.
 
-Nunca se incorpora tecnología "por las dudas".
-
-Toda incorporación deberá responder una pregunta sencilla.
-
-> ¿Qué problema resuelve?
+Por esa razón, el método nunca deberá depender de una tecnología específica.
 
 ---
 
-# 2. Infraestructura
+# 2. Principios
 
-## Notebook dedicada
+La selección tecnológica seguirá los siguientes principios.
 
-Todo el laboratorio se desarrollará sobre una computadora dedicada exclusivamente al proyecto.
+* simplicidad;
+* software libre cuando resulte posible;
+* interoperabilidad;
+* bajo costo;
+* reemplazabilidad;
+* documentación completa.
 
-Objetivos.
+La incorporación de una nueva herramienta deberá resolver un problema concreto.
 
-* mantener un entorno limpio;
-* facilitar reproducibilidad;
-* aislar experimentos;
-* simplificar backups.
-
----
-
-## Teléfono dedicado
-
-Un único teléfono para el laboratorio.
-
-Permitirá separar la identidad del proyecto de las cuentas personales.
+Nunca incorporarse únicamente por novedad tecnológica.
 
 ---
 
-## Chip dedicado
+# 3. Capacidades del laboratorio
 
-Número exclusivo para el laboratorio.
+## Captura
 
-Permitirá operar WhatsApp Business y otros servicios futuros.
+Permite registrar observaciones.
 
----
+Implementación actual.
 
-# 3. Comunicación
+* WhatsApp Business.
 
-## WhatsApp Business
+Posibles implementaciones futuras.
 
-Será la primera plataforma de interacción con las estaciones.
-
-Funciones previstas.
-
-* Comunidad.
-* Canales.
-* Listas de difusión.
-* Automatización.
-* Respuestas rápidas.
-
----
-
-## Instagram
-
-Canal de descubrimiento.
-
-No será utilizado para registrar observaciones.
-
-Su objetivo será atraer nuevas estaciones.
-
----
-
-## Correo electrónico
-
-Reservado para documentación y comunicaciones institucionales.
-
----
-
-# 4. Persistencia
-
-## Git
-
-Repositorio privado.
-
-Documentación.
-
-Código.
-
-Método.
-
-Experimentación.
-
----
-
-## GitHub
-
-Control de versiones.
-
-Gestión del conocimiento.
-
----
-
-## PostgreSQL
-
-Base principal del laboratorio.
-
----
-
-## PostGIS
-
-Modelo territorial.
-
-Toda observación tendrá referencia espacial.
-
----
-
-# 5. Procesamiento
-
-Python.
-
-SQL.
-
-Scripts de automatización.
-
-Procesamiento espacial.
-
-Series temporales.
-
-Generación de indicadores.
-
----
-
-# 6. Inteligencia Artificial
-
-La IA no constituye un requisito del MVP.
-
-Será incorporada únicamente cuando exista un problema claramente identificado.
-
-Posibles usos.
-
-* clasificación temática;
-* resumen automático;
-* agrupamiento;
-* generación de informes;
-* asistencia al consultor;
-* detección de patrones.
-
----
-
-# 7. Visualización
-
-Dashboard.
-
-Mapas.
-
-Series temporales.
-
-Indicadores.
-
-Pronósticos.
-
-No se prioriza el diseño visual.
-
-Se prioriza la comprensión.
-
----
-
-# 8. Desarrollo
-
-Lenguaje principal.
-
-Python.
-
-Base espacial.
-
-PostgreSQL + PostGIS.
-
-API.
-
-REST.
-
-Repositorio.
-
-GitHub.
-
----
-
-# 9. Automatización
-
-Objetivos.
-
-* reducir tareas repetitivas;
-* minimizar errores manuales;
-* acelerar procesamiento;
-* mantener trazabilidad.
-
-Toda automatización deberá documentarse.
-
----
-
-# 10. Principios del Stack
-
-## Simplicidad
-
-La solución más simple tiene prioridad.
-
----
-
-## Reproducibilidad
-
-Todo el laboratorio debe poder instalarse nuevamente siguiendo la documentación.
-
----
-
-## Bajo costo
-
-El laboratorio buscará minimizar costos de infraestructura.
-
----
-
-## Software abierto
-
-Siempre que resulte posible se priorizarán herramientas abiertas.
-
----
-
-## Modularidad
-
-Toda herramienta debe poder reemplazarse sin afectar el método.
-
----
-
-## Trazabilidad
-
-Todo dato debe poder reconstruir su recorrido.
-
----
-
-# 11. Evolución
-
-El stack tecnológico evolucionará junto con el laboratorio.
-
-No existe compromiso permanente con ninguna herramienta.
-
-La única obligación del stack consiste en implementar correctamente el método.
-
----
-
-# Stack inicial (MVP)
-
-## Hardware
-
-* Notebook dedicada
-* Teléfono Android
-* Chip exclusivo
-
----
-
-## Comunicación
-
-* WhatsApp Business
-* Instagram
+* aplicación móvil;
+* formularios web;
+* correo electrónico;
+* APIs;
+* otros sistemas de mensajería.
 
 ---
 
 ## Persistencia
 
-* Git
-* GitHub
-* PostgreSQL
-* PostGIS
+Permite almacenar la información producida por el laboratorio.
+
+Implementación actual.
+
+* PostgreSQL.
+
+Posibles implementaciones futuras.
+
+* otras bases de datos compatibles.
 
 ---
 
-## Desarrollo
+## Espacial
 
-* Python
-* SQL
-* Visual Studio Code
+Permite representar la información territorialmente.
+
+Implementación actual.
+
+* PostGIS.
+
+---
+
+## Procesamiento
+
+Permite transformar observaciones en eventos, fenómenos e indicadores.
+
+Implementación actual.
+
+* SQL;
+* scripts de automatización.
+
+Posibles implementaciones futuras.
+
+* motores analíticos;
+* procesamiento distribuido.
+
+---
+
+## Publicación
+
+Permite devolver conocimiento hacia la comunidad.
+
+Implementación actual.
+
+* mapas web;
+* informes;
+* tableros.
 
 ---
 
 ## Visualización
 
-* QGIS
-* Leaflet
-* Dashboard web
+Permite interpretar la evidencia.
+
+Implementación actual.
+
+* Leaflet;
+* QGIS.
+
+Posibles implementaciones futuras.
+
+* dashboards;
+* aplicaciones específicas.
+
+---
+
+## Versionado
+
+Permite documentar la evolución del laboratorio.
+
+Implementación actual.
+
+* Git;
+* GitHub.
+
+---
+
+## Automatización
+
+Permite reducir tareas repetitivas.
+
+Implementación actual.
+
+* scripts;
+* tareas programadas.
+
+Posibles implementaciones futuras.
+
+* inteligencia artificial;
+* agentes especializados.
+
+---
+
+# 4. Implementación actual
+
+Infraestructura prevista para el MVP.
+
+## Hardware
+
+* notebook dedicada;
+* teléfono exclusivo;
+* chip exclusivo.
+
+---
+
+## Software
+
+* WhatsApp Business;
+* PostgreSQL;
+* PostGIS;
+* Git;
+* GitHub;
+* QGIS;
+* Visual Studio Code.
 
 ---
 
 ## Documentación
 
-* Markdown
-* GitHub
+Toda la documentación se mantiene en formato Markdown dentro del repositorio del laboratorio.
 
 ---
 
-# Regla de oro
+# 5. Evolución tecnológica
 
-El día que una tecnología limite la evolución del método, deberá reemplazarse.
+La tecnología evolucionará únicamente cuando la evidencia experimental demuestre que una nueva herramienta mejora el funcionamiento del método.
 
-Nunca al revés.
+La incorporación de una nueva tecnología deberá responder explícitamente.
+
+* ¿Qué problema resuelve?
+* ¿Qué capacidad mejora?
+* ¿Qué complejidad agrega?
+* ¿Puede reemplazarse en el futuro?
+
+Si estas preguntas no pueden responderse claramente, la incorporación deberá postergarse.
+
+---
+
+# 6. Regla editorial
+
+Este documento describe una implementación posible.
+
+No constituye parte del método.
+
+Si una tecnología cambia y el método permanece válido, el laboratorio habrá sido correctamente diseñado.
+
+El verdadero producto del Servicio Meteorológico Social no será su infraestructura tecnológica.
+
+Será el método capaz de sobrevivir a cualquier infraestructura.

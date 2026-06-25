@@ -1,384 +1,375 @@
 # Arquitectura del Sistema
 
-> Este documento describe cómo circula el conocimiento dentro del Servicio Meteorológico Social. No representa una arquitectura de software. Representa la arquitectura del método.
+> Este documento describe cómo circula el conocimiento dentro del Servicio Meteorológico Social.
+
+No representa una arquitectura de software.
+
+No describe servidores.
+
+No describe tecnologías.
+
+Describe la arquitectura conceptual del método.
 
 ---
 
 # Índice
 
-1. Filosofía
+1. Propósito
 2. Arquitectura general
-3. Flujo operativo
-4. Los motores del sistema
+3. Flujo de conocimiento
+4. Motores del sistema
 5. Bases de información
 6. Productos
-7. Escalabilidad
-8. Principios
+7. Principios de diseño
 
 ---
 
-# 1. Filosofía
+# 1. Propósito
 
-El Servicio Meteorológico Social no transforma personas en datos.
+La arquitectura del sistema existe para ordenar el recorrido que transforma observaciones territoriales distribuidas en evidencia útil.
 
-Transforma observaciones distribuidas en conocimiento colectivo.
+El sistema no transforma personas en datos.
 
-La arquitectura del sistema refleja ese recorrido.
+Transforma observaciones en conocimiento territorial.
 
 ---
 
 # 2. Arquitectura general
 
 ```text
-                   COMUNIDAD
+RED DE ESTACIONES
 
-            (Estaciones humanas)
+        │
+        ▼
 
-                      │
-                      ▼
+OBSERVACIONES
 
-               OBSERVACIONES
+        │
+        ▼
 
-                      │
-                      ▼
+EVENTOS
 
-            BASE OPERACIONAL (OLTP)
+        │
+        ▼
 
-                      │
-                      ▼
+FENÓMENOS
 
-         NORMALIZACIÓN Y CLASIFICACIÓN
+        │
+        ▼
 
-                      │
-                      ▼
+INDICADORES
 
-            BASE ANALÍTICA (OLAP)
+        │
+        ▼
 
-                      │
-          ┌───────────┼────────────┐
-          ▼           ▼            ▼
+PRONÓSTICOS
 
-      INDICADORES   MAPAS     SERIES TEMPORALES
+        │
+        ▼
 
-          └───────────┼────────────┘
-                      ▼
+RECOMENDACIONES
 
-                PRONÓSTICOS
+        │
+        ▼
 
-                      │
-                      ▼
-
-     RECOMENDACIONES DE COMUNICACIÓN
-
-          ┌───────────┴───────────┐
-
-          ▼                       ▼
-
-   CONSULTOR               COMUNIDAD
-
-                      ▲
-                      │
-                DEVOLUCIÓN
+DEVOLUCIÓN A LA RED
 ```
 
 La arquitectura posee un ciclo cerrado.
 
-Toda observación vuelve finalmente a la comunidad transformada en conocimiento.
+Toda observación ingresa al sistema, se transforma en conocimiento y debe volver a la red mediante una devolución.
 
 ---
 
-# 3. Flujo operativo
+# 3. Flujo de conocimiento
 
-## Paso 1
+## 3.1 Estaciones
 
-La estación observa.
+Las estaciones constituyen los puntos de observación del sistema.
 
-No interpreta.
+En la implementación inicial serán personas.
 
-No explica.
-
-No debate.
+A futuro podrán ser organizaciones, instituciones, sensores automáticos u otros sistemas capaces de producir observaciones bajo protocolo.
 
 ---
 
-## Paso 2
+## 3.2 Observaciones
 
-La observación ingresa al sistema.
+Las observaciones son registros realizados por estaciones.
 
-Se registra.
+Describen hechos situados en un territorio y un período determinado.
 
-Se georreferencia.
+No interpretan.
 
-Se clasifica.
+No explican.
 
----
-
-## Paso 3
-
-Las observaciones comienzan a formar series históricas.
-
-Aparecen patrones.
-
-No opiniones.
+No recomiendan.
 
 ---
 
-## Paso 4
+## 3.3 Eventos
 
-El laboratorio incorpora contexto.
+Los eventos son manifestaciones concretas identificadas a partir de observaciones.
 
-Capas SIG.
+Un evento posee territorio, tiempo y contenido observable.
 
-Resultados electorales.
-
-Infraestructura.
-
-Demografía.
-
-Servicios.
-
-Noticias.
+Los eventos permiten agrupar observaciones relacionadas sin convertirlas todavía en explicación.
 
 ---
 
-## Paso 5
+## 3.4 Fenómenos
 
-Se generan indicadores.
+Los fenómenos surgen de la integración de eventos.
 
-No conclusiones.
+Un fenómeno representa un patrón observable.
 
-Indicadores.
+No constituye una causa.
 
----
+No constituye una solución.
 
-## Paso 6
-
-Los indicadores producen un pronóstico.
-
-El pronóstico nunca surge de una única estación.
-
-Siempre representa el comportamiento de la red.
+No constituye una recomendación.
 
 ---
 
-## Paso 7
+## 3.5 Indicadores
 
-El consultor recibe una recomendación.
+Los indicadores sintetizan información sobre eventos y fenómenos.
 
-No una orden.
+Permiten comparar territorios, períodos y evolución temporal.
 
-Una recomendación basada en evidencia.
+Los indicadores no son conclusiones.
 
----
-
-## Paso 8
-
-La comunidad recibe una devolución.
-
-Mapas.
-
-Indicadores.
-
-Pronósticos.
-
-Conocimiento colectivo.
-
-La devolución alimenta un nuevo ciclo de observación.
+Son evidencia organizada.
 
 ---
 
-# 4. Los motores del sistema
+## 3.6 Pronósticos
 
-## Motor de Participación
+Los pronósticos estiman la evolución probable de uno o más fenómenos territoriales.
 
-Su función es mantener viva la comunidad.
+Todo pronóstico debe indicar:
 
-Produce.
+* territorio;
+* período de validez;
+* evidencia utilizada;
+* nivel de confianza.
+
+---
+
+## 3.7 Recomendaciones
+
+Las recomendaciones transforman pronósticos en posibles líneas de acción.
+
+No pertenecen al proceso de observación.
+
+Representan una aplicación del conocimiento producido por el sistema.
+
+---
+
+## 3.8 Devolución
+
+La devolución cierra el ciclo.
+
+La red no sólo entrega observaciones.
+
+También recibe conocimiento.
+
+Sin devolución, el sistema se transforma en extracción de datos.
+
+---
+
+# 4. Motores del sistema
+
+## 4.1 Motor de participación
+
+Mantiene activa la red de estaciones.
+
+Trabaja sobre:
 
 * incorporación;
 * permanencia;
-* participación.
-
-Nunca genera pronósticos.
-
----
-
-## Motor de Observación
-
-Convierte conversaciones territoriales en observaciones comparables.
-
-Representa el núcleo metodológico del laboratorio.
+* devolución;
+* confianza;
+* continuidad.
 
 ---
 
-## Motor Analítico
+## 4.2 Motor de observación
 
-Integra observaciones.
+Convierte aportes de las estaciones en observaciones válidas.
 
-Construye históricos.
+Trabaja sobre:
 
-Calcula indicadores.
-
-Genera series temporales.
+* protocolo;
+* frecuencia;
+* territorialización;
+* formato;
+* criterios de validez.
 
 ---
 
-## Motor Territorial
+## 4.3 Motor territorial
 
-Relaciona las observaciones con información espacial.
+Asocia las observaciones, eventos y fenómenos con unidades territoriales.
 
-Integra.
+Puede integrar:
 
 * barrios;
 * radios censales;
-* circuitos;
-* infraestructura;
-* indicadores públicos.
+* circuitos electorales;
+* localidades;
+* municipios;
+* capas externas.
 
 ---
 
-## Motor de Pronóstico
+## 4.4 Motor analítico
+
+Procesa observaciones, eventos y fenómenos para producir indicadores.
+
+Trabaja sobre:
+
+* históricos;
+* agregaciones;
+* comparación temporal;
+* comparación territorial;
+* detección de patrones.
+
+---
+
+## 4.5 Motor de pronóstico
 
 Transforma indicadores en escenarios probables.
 
-No produce comunicación.
+No produce recomendaciones.
 
-Produce evidencia.
+Produce estimaciones sobre la evolución de fenómenos.
 
 ---
 
-## Motor de Comunicación
+## 4.6 Motor de comunicación
 
-Transforma el pronóstico en recomendaciones para la comunicación política.
+Transforma pronósticos en recomendaciones.
 
-No toma decisiones.
+Su función no es observar.
 
-Las asiste.
+Su función es asistir la toma de decisiones comunicacionales.
 
 ---
 
 # 5. Bases de información
 
-El laboratorio trabaja con dos grandes bases.
+## 5.1 Base operacional
 
-## Base Operacional
+Representa el presente del sistema.
 
-Contiene.
+Contiene:
 
 * estaciones;
 * observaciones;
-* respuestas;
-* eventos.
-
-Representa el presente.
+* eventos;
+* registros de participación;
+* devoluciones realizadas.
 
 ---
 
-## Base Analítica
-
-Contiene.
-
-* históricos;
-* indicadores;
-* agregaciones;
-* pronósticos.
+## 5.2 Base analítica
 
 Representa el conocimiento acumulado.
+
+Contiene:
+
+* fenómenos;
+* indicadores;
+* series históricas;
+* pronósticos;
+* evaluaciones de resultados.
 
 ---
 
 # 6. Productos
 
-La arquitectura genera dos productos distintos.
+## 6.1 Evidencia territorial
 
-## Producto A
+Resultado principal del método.
 
-La comunidad.
+Incluye:
 
-Recibe.
+* observaciones;
+* eventos;
+* fenómenos;
+* indicadores.
+
+---
+
+## 6.2 Pronóstico territorial
+
+Estimación sobre la evolución probable de fenómenos en un territorio y período determinado.
+
+---
+
+## 6.3 Recomendación comunicacional
+
+Aplicación del pronóstico a una decisión de comunicación.
+
+---
+
+## 6.4 Devolución comunitaria
+
+Producto destinado a la red de estaciones.
+
+Puede incluir:
 
 * mapas;
-* indicadores;
-* conocimiento colectivo.
-
-Su objetivo es fortalecer la red.
-
----
-
-## Producto B
-
-El Servicio Meteorológico Social.
-
-Produce.
-
-* análisis;
-* pronósticos;
-* recomendaciones.
-
-Su objetivo es asistir procesos de comunicación.
+* resúmenes;
+* boletines;
+* comparaciones territoriales;
+* evolución histórica.
 
 ---
 
-# 7. Escalabilidad
+# 7. Principios de diseño
 
-La arquitectura fue diseñada para crecer.
+## 7.1
 
-Primero.
-
-Barrio.
-
-↓
-
-Municipio.
-
-↓
-
-Provincia.
-
-↓
-
-País.
-
-↓
-
-Red internacional.
-
-La arquitectura no cambia.
-
-Únicamente aumenta la cantidad de estaciones.
+El método tiene prioridad sobre la tecnología.
 
 ---
 
-# 8. Principios
+## 7.2
 
-Toda decisión tecnológica deberá respetar estos principios.
-
-## El método tiene prioridad sobre la tecnología.
+La arquitectura debe seguir siendo válida aunque cambie la implementación.
 
 ---
 
-## La comunidad tiene prioridad sobre el modelo.
+## 7.3
+
+Ninguna observación debe convertirse directamente en recomendación.
 
 ---
 
-## El conocimiento tiene prioridad sobre el dato.
+## 7.4
+
+Todo pronóstico debe construirse sobre evidencia territorial.
 
 ---
 
-## La observación tiene prioridad sobre la interpretación.
+## 7.5
+
+Toda participación debe producir devolución.
 
 ---
 
-## La devolución tiene prioridad sobre la extracción.
+## 7.6
+
+La arquitectura debe permitir reconstruir el recorrido completo desde una recomendación hasta las observaciones que la hicieron posible.
 
 ---
 
-## Toda observación debe poder reconstruir su recorrido completo.
+# Regla editorial
 
----
+Este documento describe la arquitectura conceptual del sistema.
 
-## Regla de diseño
+La arquitectura técnica deberá documentarse en otro lugar sólo cuando exista una implementación concreta.
 
-La arquitectura deberá permanecer válida incluso si cambia completamente la tecnología utilizada para implementarla.
-
-El método constituye el verdadero producto del laboratorio.
+No se debe incorporar tecnología en este documento salvo que sea indispensable para explicar el método.

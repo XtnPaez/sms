@@ -1,113 +1,51 @@
 # Modelo de Información
 
-> Este documento define las entidades conceptuales del Servicio Meteorológico Social y las relaciones entre ellas. No describe una base de datos específica. Describe la información que el método necesita producir, conservar y transformar.
+> Este documento describe cómo el Servicio Meteorológico Social transforma observaciones distribuidas en conocimiento territorial.
+
+No representa un modelo de base de datos.
+
+No representa un modelo UML.
+
+Representa el modelo conceptual del laboratorio.
 
 ---
 
 # Índice
 
-1. Objetivo
-2. Filosofía
-3. Entidades principales
-4. Relaciones
-5. Ciclo de vida de la información
-6. Niveles de agregación
-7. Histórico
-8. Capas territoriales
-9. Productos derivados
-10. Preguntas abiertas
+1. Propósito
+2. Principios
+3. Ciclo de transformación
+4. Componentes del modelo
+5. Relaciones
+6. Productos del modelo
+7. Regla editorial
 
 ---
 
-# 1. Objetivo
+# 1. Propósito
 
-Toda observación realizada por una estación debe transformarse, mediante un proceso gradual de integración, en conocimiento útil para el laboratorio.
-
-Este documento define ese recorrido.
-
-No modela tablas.
-
-Modela conocimiento.
-
----
-
-# 2. Filosofía
-
-El laboratorio trabaja con una idea simple.
-
-**Los datos nunca existen aislados.**
-
-Cada dato forma parte de un contexto.
-
-Ese contexto es el que permite construir conocimiento.
-
-Por esa razón el método no almacena únicamente observaciones.
-
-Almacena relaciones.
-
----
-
-# 3. Entidades principales
-
-## Estación
+El laboratorio no produce conocimiento de manera directa.
 
 Produce observaciones.
 
----
+El conocimiento aparece como consecuencia de un proceso de integración.
 
-## Observación
-
-Unidad mínima del método.
-
-Toda observación posee:
-
-* tiempo
-* territorio
-* estación
-* contenido
+Este documento describe ese proceso.
 
 ---
 
-## Territorio
+# 2. Principios
 
-Lugar al cual pertenece la observación.
+El modelo sigue los siguientes principios.
 
-Puede representarse mediante distintas unidades.
-
-* barrio
-* radio censal
-* circuito
-* comuna
-* localidad
-* municipio
+* cada componente cumple una única función;
+* cada transformación agrega valor;
+* ninguna etapa puede omitirse;
+* todo resultado debe ser trazable hasta las observaciones originales.
 
 ---
 
-## Tema
-
-Clasificación temática de una observación.
-
-No necesariamente coincide con la forma en que fue registrada.
-
----
-
-## Pronóstico
-
-Resultado del procesamiento de múltiples observaciones.
-
-Nunca proviene de una sola estación.
-
----
-
-## Recomendación
-
-Interpretación comunicacional del pronóstico.
-
-Constituye el producto final del método.
-
----
-
-# 4. Relaciones
+# 3. Ciclo de transformación
 
 ```text
 ESTACIÓN
@@ -118,15 +56,15 @@ OBSERVACIÓN
 
 ↓
 
-TEMA
+EVENTO
 
 ↓
 
-TERRITORIO
+FENÓMENO
 
 ↓
 
-SERIE TEMPORAL
+INDICADOR
 
 ↓
 
@@ -137,209 +75,192 @@ PRONÓSTICO
 RECOMENDACIÓN
 ```
 
-El laboratorio nunca trabaja con observaciones aisladas.
+Cada componente representa un nivel diferente de elaboración del conocimiento.
 
-Siempre trabaja con relaciones.
+El laboratorio no produce recomendaciones directamente.
+
+Las construye recorriendo todas las etapas anteriores.
 
 ---
 
-# 5. Ciclo de vida de la información
+# 4. Componentes del modelo
+
+## 4.1 Estación
+
+Origen de toda observación.
+
+Una estación representa un punto permanente de observación del territorio.
+
+Produce observaciones.
+
+No produce conocimiento.
+
+---
+
+## 4.2 Observación
+
+Registro primario realizado por una estación.
+
+Representa un hecho localizado espacial y temporalmente.
+
+Las observaciones constituyen la materia prima del laboratorio.
+
+---
+
+## 4.3 Evento
+
+Agrupación de observaciones que describen una misma ocurrencia.
+
+Los eventos permiten organizar la información sin interpretarla todavía como un fenómeno.
+
+Representan el primer nivel de integración.
+
+---
+
+## 4.4 Fenómeno
+
+Patrón identificado a partir de múltiples eventos.
+
+Un fenómeno representa una regularidad territorial.
+
+Su existencia depende de la evidencia acumulada.
+
+Los fenómenos constituyen el principal objeto de estudio del laboratorio.
+
+---
+
+## 4.5 Indicador
+
+Medida obtenida mediante el análisis de uno o más fenómenos.
+
+Los indicadores permiten comparar.
+
+No interpretan.
+
+No recomiendan.
+
+Describen.
+
+---
+
+## 4.6 Pronóstico
+
+Estimación probabilística sobre la evolución futura de uno o más fenómenos.
+
+Todo pronóstico deberá indicar.
+
+* territorio;
+* período;
+* nivel de confianza;
+* evidencia utilizada.
+
+---
+
+## 4.7 Recomendación
+
+Aplicación práctica de un pronóstico.
+
+Las recomendaciones no pertenecen al método científico.
+
+Constituyen un posible uso del conocimiento producido.
+
+Diferentes actores podrán formular recomendaciones distintas utilizando la misma evidencia.
+
+---
+
+# 5. Relaciones
 
 ```text
-Observación
+Una estación
+
+produce
+
+muchas observaciones
 
 ↓
 
-Clasificación
+Muchas observaciones
+
+pueden formar
+
+un evento
 
 ↓
 
-Georreferenciación
+Muchos eventos
+
+pueden revelar
+
+un fenómeno
 
 ↓
 
-Histórico
+Uno o más fenómenos
+
+permiten calcular
+
+indicadores
 
 ↓
 
-Agregación
+Los indicadores
+
+permiten construir
+
+pronósticos
 
 ↓
 
-Indicadores
+Los pronósticos
 
-↓
+permiten elaborar
 
-Pronóstico
-
-↓
-
-Recomendación
+recomendaciones
 ```
 
-Cada etapa agrega contexto.
+Cada transformación conserva la posibilidad de reconstruir completamente el recorrido inverso.
 
-Nunca reemplaza información.
+Toda recomendación deberá poder rastrearse hasta las observaciones originales que la hicieron posible.
 
----
-
-# 6. Niveles de agregación
-
-Una misma observación podrá analizarse en distintos niveles.
-
-Individual.
-
-↓
-
-Barrio.
-
-↓
-
-Comuna.
-
-↓
-
-Municipio.
-
-↓
-
-Provincia.
-
-↓
-
-Región.
-
-↓
-
-País.
-
-El método deberá permitir cambiar de escala sin perder consistencia.
+La trazabilidad constituye un principio fundamental del laboratorio.
 
 ---
 
-# 7. Histórico
+# 6. Productos del modelo
 
-Toda observación permanece.
+El modelo genera tres tipos de productos.
 
-Nunca se reemplaza.
+## Evidencia
 
-Nunca se corrige.
+Compuesta por:
 
-Los modelos cambian.
-
-Los datos originales permanecen.
-
-El histórico constituye uno de los principales activos del laboratorio.
-
----
-
-# 8. Capas territoriales
-
-Las observaciones pueden enriquecerse mediante capas externas.
-
-Ejemplos.
-
-## Demografía
-
-* población
-* edad
-* hogares
-
----
-
-## Infraestructura
-
-* escuelas
-* hospitales
-* clubes
-* plazas
-
----
-
-## Condiciones sociales
-
-* pobreza
-* empleo
-* conectividad
-
----
-
-## Política
-
-* resultados electorales
-* participación
-* representación territorial
-
----
-
-## Ambiente
-
-* clima
-* inundaciones
-* espacios verdes
-
----
-
-Estas capas no generan observaciones.
-
-Las contextualizan.
-
----
-
-# 9. Productos derivados
-
-El laboratorio podrá producir distintos niveles de información.
-
-## Datos
-
-Observaciones.
-
----
-
-## Información
-
-Observaciones organizadas.
-
----
-
-## Indicadores
-
-Series temporales.
+* observaciones;
+* eventos;
+* fenómenos;
+* indicadores.
 
 ---
 
 ## Conocimiento
 
-Patrones.
+Representado por los pronósticos.
 
 ---
 
-## Pronósticos
+## Aplicación
 
-Escenarios probables.
+Representada por las recomendaciones.
 
----
-
-## Recomendaciones
-
-Sugerencias para la comunicación política.
+Esta separación evita confundir evidencia con decisiones.
 
 ---
 
-# 10. Preguntas abiertas
+# 7. Regla editorial
 
-* ¿Qué información nunca debe perderse?
-* ¿Qué parte pertenece al dato y cuál al modelo?
-* ¿Qué procesos deben ser reproducibles?
-* ¿Qué capas territoriales producen mayor capacidad explicativa?
-* ¿Qué información puede publicarse y cuál debe permanecer privada?
+Toda modificación del método deberá ser consistente con este modelo.
 
----
+Si un nuevo concepto no puede ubicarse claramente dentro del ciclo de transformación, deberá justificarse su incorporación o descartarse.
 
-# Nota
+Este documento constituye el modelo conceptual oficial del Servicio Meteorológico Social.
 
-Este documento es deliberadamente independiente de cualquier tecnología.
-
-La implementación podrá realizarse en PostgreSQL, PostGIS u otro sistema.
-
-Si el método cambia de plataforma, este documento debería permanecer prácticamente igual.
+Toda implementación tecnológica deberá adaptarse a él y no al revés.

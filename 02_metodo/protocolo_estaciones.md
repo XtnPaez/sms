@@ -1,345 +1,203 @@
-# Manual de Estaciones
+# Protocolo de Estaciones
 
-> Este documento define el funcionamiento de una Estación Meteorológica Social. Es el núcleo metodológico del proyecto y establece cómo producir observaciones comparables, reproducibles y útiles para la construcción de pronósticos territoriales.
+> Este documento establece el protocolo utilizado por las estaciones del Servicio Meteorológico Social para producir observaciones territoriales.
+
+No describe el funcionamiento de la comunidad.
+
+No describe la tecnología.
+
+Describe el procedimiento mediante el cual una observación pasa a formar parte del laboratorio.
 
 ---
 
 # Índice
 
-1. Objetivo
+1. Propósito
 2. Principios
-3. ¿Qué es una estación?
-4. ¿Qué NO es una estación?
-5. Ciclo de vida de una estación
-6. La observación
-7. Protocolo de observación
-8. Protocolo de devolución
-9. Calidad de las observaciones
-10. Cobertura territorial
-11. Calibración
-12. Ética
-13. Métricas
-14. Preguntas abiertas
+3. La estación
+4. La observación
+5. Criterios de validez
+6. Flujo de observación
+7. Responsabilidades de una estación
+8. Evolución del protocolo
 
 ---
 
-# 1. Objetivo
+# 1. Propósito
 
-Una estación existe para observar.
+Todas las estaciones observan territorios diferentes.
 
-No para interpretar.
+Sin embargo, todas deben producir observaciones comparables.
 
-No para convencer.
+El protocolo existe para garantizar esa consistencia.
 
-No para representar a un barrio.
+No busca limitar la diversidad de miradas.
 
-Su función consiste en registrar señales débiles del territorio mediante un protocolo común que permita integrar observaciones provenientes de múltiples lugares.
+Busca que todas puedan integrarse dentro de un mismo método.
 
 ---
 
 # 2. Principios
 
-Toda estación comparte los siguientes principios.
+Toda observación deberá respetar los siguientes principios.
 
-* Observa antes de interpretar.
-* Registra antes de opinar.
-* Describe antes de explicar.
-* El territorio tiene prioridad sobre las ideas previas.
-* La devolución a la comunidad es parte del método.
+* territorialidad;
+* temporalidad;
+* trazabilidad;
+* comparabilidad;
+* simplicidad;
+* reproducibilidad.
 
----
-
-# 3. ¿Qué es una estación?
-
-Una estación es una persona que participa regularmente del laboratorio realizando observaciones sobre el territorio que habita o frecuenta.
-
-Una estación no representa estadísticamente a un barrio.
-
-Representa un punto de observación dentro de una red distribuida.
-
-Su valor no proviene de hablar por todos.
-
-Proviene de observar siempre desde el mismo lugar.
-
-La estabilidad produce comparabilidad.
+El protocolo deberá permanecer lo suficientemente simple como para facilitar la participación.
 
 ---
 
-# 4. ¿Qué NO es una estación?
+# 3. La estación
 
-Una estación no es:
+Una estación constituye un punto permanente de observación.
 
-* un encuestador;
-* un militante;
-* un periodista;
-* un fiscal;
-* un influencer;
-* un operador político.
+Su función consiste en registrar hechos ocurridos dentro de su territorio de referencia.
 
-La estación no sale a buscar información.
+Una estación no representa una opinión pública.
 
-La estación registra aquello que naturalmente aparece en su vida cotidiana.
+Representa un punto de observación.
+
+La calidad del laboratorio depende de la diversidad y distribución de sus estaciones.
 
 ---
 
-# 5. Ciclo de vida de una estación
+# 4. La observación
 
-Una estación atraviesa distintas etapas.
+Una observación constituye el registro de un hecho ocurrido en un territorio durante un período determinado.
 
-```text
-Invitación
+Debe describir.
 
-↓
+No interpretar.
 
-Alta
+No explicar.
 
-↓
+No recomendar.
 
-Calibración
+Toda observación representa únicamente aquello que una estación pudo observar.
 
-↓
-
-Observación
-
-↓
-
-Devolución
-
-↓
-
-Nueva observación
-
-↓
-
-Histórico
-
-↓
-
-Permanencia o baja
-```
-
-Cada etapa podrá evolucionar a medida que avance el proyecto.
+No aquello que supone.
 
 ---
 
-# 6. La observación
-
-La observación constituye la unidad mínima registrada por una estación. A partir de múltiples observaciones, el laboratorio identifica eventos y fenómenos.
-
-Todo el laboratorio se construye sobre observaciones.
-
-Una observación debe responder una pregunta simple:
-
-> ¿Qué conversación apareció con suficiente frecuencia como para llamar tu atención esta semana?
-
-La estación registra el fenómeno.
-
-No intenta explicarlo.
-
-No intenta resolverlo.
-
-No intenta medirlo.
-
-Sólo informa que apareció.
-
----
-
-## Una observación debe ser
-
-* localizada;
-* temporal;
-* concreta;
-* comparable;
-* breve.
-
----
-
-## Una observación no debe ser
-
-* una opinión política;
-* una discusión ideológica;
-* un rumor no contextualizado;
-* una interpretación causal.
-
----
-
-# 7. Protocolo de observación
-
-(Este apartado se desarrollará durante el laboratorio.)
-
-Deberá definir, entre otras cuestiones:
-
-* frecuencia;
-* preguntas;
-* duración;
-* formato;
-* tratamiento de datos;
-* georreferenciación;
-* anonimización.
-
----
-
-# 8. Protocolo de devolución
-
-Una estación no entrega información sin recibir conocimiento.
-
-Cada ciclo de observación debe finalizar con una devolución.
-
-Ejemplos posibles.
-
-* mapa actualizado;
-* resumen semanal;
-* pronóstico;
-* evolución histórica;
-* comparación territorial.
-
-La devolución constituye parte del incentivo de participación.
-
----
-
-# 9. Calidad de las observaciones
-
-Toda observación podrá evaluarse mediante indicadores como:
-
-* continuidad;
-* consistencia;
-* estabilidad;
-* diversidad;
-* correlación territorial.
-
-Estos indicadores serán definidos durante el desarrollo del método.
-
----
-
-# 10. Cobertura territorial
-
-El objetivo no es tener muchas estaciones.
-
-El objetivo es construir una red distribuida.
-
-Una estación adicional aporta mayor valor cuando mejora la cobertura territorial que cuando aumenta la densidad de un área ya representada.
-
----
-
-# 11. Calibración
-
-Una estación no nace calibrada.
-
-La calibración constituye un proceso continuo.
-
-El laboratorio deberá definir mecanismos para evaluar:
-
-* persistencia;
-* calidad;
-* coherencia;
-* estabilidad temporal.
-
----
-
-# 12. Ética
-
-El método parte de un principio simple.
-
-Las personas participan porque consideran útil formar parte de una red de conocimiento.
-
-Nunca deberán utilizarse mecanismos engañosos para obtener observaciones.
-
-La confianza constituye el principal activo del laboratorio.
-
----
-
-# 13. Métricas
-
-Algunas métricas preliminares.
-
-## De la estación
-
-* permanencia;
-* frecuencia;
-* cobertura;
-* consistencia.
-
-## De la red
-
-* cantidad de estaciones;
-* distribución territorial;
-* participación;
-* continuidad.
-
-## Del método
-
-* capacidad de anticipación;
-* confianza del pronóstico;
-* tiempo de respuesta;
-* utilidad para la comunicación política.
-
----
-
-# Criterios de validez de una observación
-
-No toda información constituye una observación válida para el laboratorio.
+# 5. Criterios de validez
 
 Una observación será considerada válida únicamente cuando cumpla simultáneamente los siguientes criterios.
 
-## Territorial
+## 5.1 Territorial
 
 Debe poder asociarse a un territorio claramente identificable.
 
 ---
 
-## Temporal
+## 5.2 Temporal
 
 Debe corresponder a un período concreto de observación.
 
 ---
 
-## Observable
+## 5.3 Observable
 
-Debe describir un hecho, conversación o evento efectivamente observado.
+Debe describir un hecho efectivamente observado.
 
-No una suposición.
+No una interpretación.
 
----
-
-## Reproducible
-
-Otra estación podría haber observado el mismo fenómeno.
-
-No depende exclusivamente de una experiencia personal.
+No una opinión.
 
 ---
 
-## No interpretativa
+## 5.4 Reproducible
 
-La observación describe.
-
-No explica.
-
-No busca causas.
-
-No propone soluciones.
+Otra estación ubicada en el mismo contexto podría haber observado el mismo hecho.
 
 ---
 
-## Comparable
+## 5.5 Comparable
 
 Debe poder analizarse junto con observaciones provenientes de otras estaciones.
 
 ---
 
-Si alguno de estos criterios no se cumple, la información podrá conservarse como nota de campo, pero no formará parte del conjunto de observaciones utilizadas para construir indicadores y pronósticos.
+## 5.6 Trazable
+
+Debe conservar la información necesaria para reconstruir su origen.
 
 ---
 
-# 14. Preguntas abiertas
+Si alguno de estos criterios no se cumple, el registro podrá conservarse como nota de campo, pero no formará parte del conjunto de observaciones utilizado para construir indicadores y pronósticos.
 
-Este documento no está terminado.
+---
 
-Algunas preguntas que todavía deberá responder el laboratorio.
+# 6. Flujo de observación
 
-* ¿Qué constituye exactamente una observación?
-* ¿Cuántas observaciones semanales hacen falta?
-* ¿Cómo se calibra una estación?
-* ¿Cómo detectar estaciones sesgadas?
-* ¿Qué información debe devolverse?
-* ¿Qué hace que una estación permanezca activa durante meses?
+```text
+ESTACIÓN
+
+↓
+
+OBSERVA
+
+↓
+
+REGISTRA
+
+↓
+
+VALIDA
+
+↓
+
+OBSERVACIÓN
+
+↓
+
+EVENTO
+
+↓
+
+FENÓMENO
+```
+
+El protocolo finaliza cuando la observación validada ingresa al modelo de información.
+
+A partir de ese momento comienza el proceso analítico del laboratorio.
+
+---
+
+# 7. Responsabilidades de una estación
+
+Toda estación deberá.
+
+* observar con regularidad;
+* registrar únicamente hechos observados;
+* respetar el protocolo;
+* aceptar que sus observaciones serán integradas con las de otras estaciones;
+* contribuir al conocimiento colectivo.
+
+Las estaciones no son evaluadas por sus opiniones.
+
+Son evaluadas por la consistencia de sus observaciones.
+
+---
+
+# 8. Evolución del protocolo
+
+El protocolo constituye un componente experimental del laboratorio.
+
+Podrá modificarse únicamente cuando la evidencia obtenida durante los experimentos indique que una nueva versión mejora la calidad de las observaciones.
+
+Toda modificación deberá documentarse y justificar explícitamente las razones del cambio.
+
+---
+
+# Regla editorial
+
+El protocolo busca producir observaciones comparables.
+
+No pretende controlar el comportamiento de las estaciones.
+
+Si una modificación aumenta significativamente la complejidad del protocolo, deberá justificarse mediante evidencia experimental que demuestre una mejora equivalente en la calidad de las observaciones.
