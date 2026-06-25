@@ -275,6 +275,62 @@ Algunas métricas preliminares.
 
 ---
 
+# Criterios de validez de una observación
+
+No toda información constituye una observación válida para el laboratorio.
+
+Una observación será considerada válida únicamente cuando cumpla simultáneamente los siguientes criterios.
+
+## Territorial
+
+Debe poder asociarse a un territorio claramente identificable.
+
+---
+
+## Temporal
+
+Debe corresponder a un período concreto de observación.
+
+---
+
+## Observable
+
+Debe describir un hecho, conversación o evento efectivamente observado.
+
+No una suposición.
+
+---
+
+## Reproducible
+
+Otra estación podría haber observado el mismo fenómeno.
+
+No depende exclusivamente de una experiencia personal.
+
+---
+
+## No interpretativa
+
+La observación describe.
+
+No explica.
+
+No busca causas.
+
+No propone soluciones.
+
+---
+
+## Comparable
+
+Debe poder analizarse junto con observaciones provenientes de otras estaciones.
+
+---
+
+Si alguno de estos criterios no se cumple, la información podrá conservarse como nota de campo, pero no formará parte del conjunto de observaciones utilizadas para construir indicadores y pronósticos.
+
+---
+
 # 14. Preguntas abiertas
 
 Este documento no está terminado.
