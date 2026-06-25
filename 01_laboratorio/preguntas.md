@@ -1,82 +1,170 @@
 # Preguntas
 
-> Toda investigación comienza con una buena pregunta.
+> Registro de las preguntas de investigación del Servicio Meteorológico Social.
 
-Este documento reúne todas las preguntas abiertas del laboratorio.
+El laboratorio existe para responder preguntas.
 
-Las preguntas no se eliminan.
+No para confirmar ideas.
 
-Cuando una pregunta encuentra respuesta mediante un experimento, se referencia la decisión correspondiente y pasa a formar parte del método.
-
----
-
-# Comunidad
-
-* ¿Qué hace que una estación permanezca activa?
-* ¿Cuál es el incentivo más fuerte para participar?
-* ¿Cuál es el mejor mecanismo para incorporar nuevas estaciones?
-* ¿Existe un tamaño mínimo de red para comenzar a obtener señales útiles?
-* ¿Cómo evitamos que la comunidad se convierta en un grupo reducido de entusiastas?
+Las respuestas surgirán como consecuencia de los experimentos.
 
 ---
 
-# Método
+# Índice
 
-* ¿Qué es exactamente una observación?
-* ¿Qué diferencia una observación de una opinión?
-* ¿Cuántas preguntas debe responder una estación?
-* ¿Con qué frecuencia?
-* ¿Cómo validamos una observación?
-
----
-
-# Pronóstico
-
-* ¿Qué significa anticipar una agenda?
-* ¿Qué variables explican un buen pronóstico?
-* ¿Cómo medimos el éxito de un pronóstico?
-* ¿Qué significa "confianza" del pronóstico?
+1. Propósito
+2. Preguntas fundamentales
+3. Preguntas metodológicas
+4. Preguntas de implementación
+5. Preguntas futuras
+6. Regla editorial
 
 ---
 
-# Tecnología
+# 1. Propósito
 
-* ¿WhatsApp alcanza para el MVP?
-* ¿Cuándo aparece un bot?
-* ¿Cuándo aparece una aplicación propia?
-* ¿Qué tareas realmente justifican IA?
+Toda investigación comienza con una pregunta.
 
----
+Este documento conserva aquellas preguntas cuya respuesta puede modificar el método, orientar nuevos experimentos o redefinir el alcance del laboratorio.
 
-# Datos
+Las respuestas no se escriben aquí.
 
-* ¿Qué capas territoriales aportan mayor valor?
-* ¿Cómo ponderar observaciones?
-* ¿Cómo detectar estaciones sesgadas?
-* ¿Cómo historizar conversaciones?
+Se documentan en los experimentos correspondientes.
 
 ---
 
-# Comunicación Política
+# 2. Preguntas fundamentales
 
-* ¿Cómo transformar un pronóstico en una recomendación?
-* ¿Cómo medir si esa recomendación fue útil?
-* ¿Qué información necesita realmente un consultor?
+## P-001
 
----
+¿Es posible producir evidencia territorial distribuida mediante una red de observaciones realizadas bajo un protocolo común?
 
-# Negocio
-
-* ¿Quién paga?
-* ¿Qué compra realmente el cliente?
-* ¿Qué parte permanece abierta?
-* ¿Qué parte es premium?
+Estado: Abierta.
 
 ---
 
-# Investigación
+## P-002
 
-* ¿Qué antecedentes existen?
-* ¿Qué diferencia este método del social listening?
-* ¿Qué diferencia este método de una encuesta?
-* ¿Qué hipótesis podremos validar durante la diplomatura?
+¿La evidencia producida por esa red permite identificar fenómenos antes de que se conviertan en agenda pública?
+
+Estado: Abierta.
+
+---
+
+## P-003
+
+¿Una red de estaciones voluntarias puede mantenerse activa durante períodos prolongados?
+
+Estado: Abierta.
+
+---
+
+## P-004
+
+¿Qué incentivos sostienen la participación de una estación?
+
+Estado: Abierta.
+
+---
+
+# 3. Preguntas metodológicas
+
+## P-005
+
+¿Cuál es el protocolo mínimo necesario para producir observaciones comparables?
+
+Estado: Abierta.
+
+---
+
+## P-006
+
+¿Cuántas estaciones son necesarias para comenzar a identificar fenómenos?
+
+Estado: Abierta.
+
+---
+
+## P-007
+
+¿Cómo se valida la calidad de una observación?
+
+Estado: Abierta.
+
+---
+
+## P-008
+
+¿Qué nivel de precisión puede alcanzar un pronóstico territorial?
+
+Estado: Abierta.
+
+---
+
+## P-009
+
+¿Qué variables contextuales mejoran la capacidad predictiva del método?
+
+Estado: Abierta.
+
+---
+
+# 4. Preguntas de implementación
+
+## P-010
+
+¿Cuál es el canal más adecuado para construir la primera red de estaciones?
+
+Estado: Abierta.
+
+---
+
+## P-011
+
+¿Qué herramientas minimizan el costo operativo del laboratorio sin afectar el método?
+
+Estado: Abierta.
+
+---
+
+## P-012
+
+¿Qué procesos pueden automatizarse sin perder calidad metodológica?
+
+Estado: Abierta.
+
+---
+
+# 5. Preguntas futuras
+
+Este espacio conserva preguntas que todavía no resultan prioritarias para el MVP.
+
+Cuando una pregunta pase a formar parte de un experimento, deberá actualizarse su estado.
+
+Las preguntas nunca se eliminan.
+
+Únicamente cambian de estado.
+
+Estados posibles.
+
+* Abierta.
+* En estudio.
+* Respondida.
+* Reformulada.
+* Descartada.
+
+---
+
+# 6. Regla editorial
+
+Las preguntas representan el verdadero motor del laboratorio.
+
+Toda hipótesis deberá responder al menos una pregunta.
+
+Todo experimento deberá indicar explícitamente qué pregunta intenta responder.
+
+Toda respuesta deberá quedar documentada junto con la evidencia que la respalda.
+
+El objetivo del laboratorio no consiste en acumular respuestas.
+
+Consiste en formular mejores preguntas sobre el territorio.

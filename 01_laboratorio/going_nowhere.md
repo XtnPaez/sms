@@ -1,45 +1,116 @@
 # Going Nowhere
 
-> Ideas que decidimos no perseguir (por ahora).
+> Registro de ideas, hipótesis y líneas de trabajo que el laboratorio decidió no desarrollar, postergar o abandonar.
 
-Este documento registra caminos que fueron explorados y posteriormente descartados, postergados o congelados.
+El objetivo de este documento no consiste en conservar errores.
 
-El objetivo no es criticar esas ideas.
+Consiste en conservar memoria.
 
-El objetivo es evitar discutir dos veces el mismo problema.
-
-Toda idea que llega a este documento tuvo un motivo para existir.
-
-Y tuvo un motivo para no continuar.
-
-Eso no significa que sea una mala idea.
-
-Significa únicamente que, con el conocimiento disponible en ese momento, decidimos no invertir tiempo en desarrollarla.
-
-Si en el futuro cambian las condiciones, cualquier idea puede abandonar este documento y volver al laboratorio.
+Una idea descartada hoy puede resultar valiosa dentro de algunos años.
 
 ---
 
-## Formato
+# Índice
 
-### Idea
+1. Propósito
+2. Criterios de registro
+3. Ideas en pausa
+4. Ideas descartadas
+5. Regla editorial
 
-...
+---
 
-### Fecha
+# 1. Propósito
 
-...
+El laboratorio genera más ideas de las que puede desarrollar.
 
-### Estado
+No todas merecen convertirse en experimentos.
 
-* Descartada
-* Postergada
-* Reemplazada
+Este documento registra aquellas propuestas que, por distintos motivos, dejaron de ser prioritarias.
 
-### Motivo
+Su existencia evita volver a discutir permanentemente los mismos caminos.
 
-...
+---
 
-### ¿Qué tendría que cambiar para volver a evaluarla?
+# 2. Criterios de registro
 
-...
+Una idea llega a este documento cuando ocurre alguna de las siguientes situaciones.
+
+* no responde al objetivo actual del laboratorio;
+* aumenta innecesariamente la complejidad del método;
+* requiere recursos desproporcionados;
+* depende de tecnología todavía no disponible;
+* fue reemplazada por una solución más simple;
+* dejó de resultar interesante después de una discusión metodológica.
+
+Registrar una idea aquí no implica que sea incorrecta.
+
+Significa únicamente que el laboratorio decidió no recorrer ese camino en este momento.
+
+---
+
+# 3. Ideas en pausa
+
+## Aplicación móvil propia
+
+Motivo.
+
+El laboratorio todavía necesita validar el método.
+
+Una aplicación puede facilitar la implementación, pero no constituye una prioridad para el MVP.
+
+---
+
+## Gamificación compleja
+
+Motivo.
+
+Antes de incorporar sistemas de puntos, niveles o recompensas, el laboratorio debe demostrar que las personas desean participar por el valor del conocimiento colectivo.
+
+---
+
+## Inteligencia Artificial como componente central
+
+Motivo.
+
+La IA podrá asistir al laboratorio.
+
+No debe definir el método.
+
+Primero se valida el proceso de observación.
+
+Luego se automatiza.
+
+---
+
+## Integración masiva con múltiples plataformas
+
+Motivo.
+
+El MVP utilizará la menor cantidad posible de canales.
+
+La expansión tecnológica deberá esperar a que el método demuestre su utilidad.
+
+---
+
+# 4. Ideas descartadas
+
+Por el momento no existen ideas descartadas de manera definitiva.
+
+Todas las propuestas registradas hasta ahora permanecen únicamente en estado de pausa.
+
+Cuando una idea sea abandonada definitivamente deberá conservarse aquí junto con una explicación explícita de las razones que motivaron esa decisión.
+
+---
+
+# 5. Regla editorial
+
+Las ideas nacen en `IDEAS.md`.
+
+Si maduran, se transforman en hipótesis, decisiones, documentos metodológicos o experimentos.
+
+Si dejan de ser prioritarias, se trasladan a este documento.
+
+El laboratorio conserva tanto los caminos recorridos como aquellos que decidió no recorrer.
+
+Ambos forman parte del conocimiento producido.

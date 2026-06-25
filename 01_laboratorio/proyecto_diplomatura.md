@@ -1,172 +1,148 @@
-# Proyecto para la Diplomatura
+# Proyecto de Diplomatura
 
-## Índice
+> Propuesta de trabajo final para la Diplomatura en Comunicación Política.
 
-1. Idea general
-2. Problema
-3. Hipótesis
-4. Objetivo
-5. Método
-6. Caso piloto
-7. Productos esperados
-8. Alcances
-9. Limitaciones
-10. Evolución del proyecto
+Este documento describe el experimento que se desarrollará durante la diplomatura.
+
+No representa el alcance completo del Servicio Meteorológico Social.
+
+Constituye únicamente el primer caso de validación del método.
 
 ---
 
-# 1. Idea general
+# Índice
 
-Este proyecto propone diseñar e implementar un método experimental para detectar tempranamente la agenda social de un territorio mediante una red distribuida de observadores voluntarios ("estaciones"), inspirada en el funcionamiento de una red meteorológica.
+1. Título provisorio
+2. Problema
+3. Hipótesis
+4. Objetivo general
+5. Objetivos específicos
+6. Método
+7. Caso de uso
+8. Resultados esperados
+9. Alcance
+10. Productos
 
-Cada estación observa únicamente su entorno inmediato y reporta periódicamente aquello que considera más relevante de las conversaciones de su barrio.
+---
 
-Las observaciones son integradas en un modelo territorial que busca producir un pronóstico de la agenda social y transformarlo en un insumo para la comunicación política basada en evidencia.
+# 1. Título provisorio
+
+**Servicio Meteorológico Social**
+
+Diseño y validación de un método para producir evidencia territorial distribuida aplicada a la comunicación política.
 
 ---
 
 # 2. Problema
 
-La comunicación política suele apoyarse en herramientas que observan el territorio cuando el fenómeno ya es visible:
+Las campañas políticas y las organizaciones territoriales necesitan comprender qué ocurre en el territorio para diseñar estrategias de comunicación.
 
-* encuestas;
-* focus groups;
-* análisis de medios;
-* social listening.
+Los métodos tradicionales —como encuestas, estudios cualitativos o social listening— aportan información valiosa, pero presentan limitaciones relacionadas con el costo, la frecuencia, la resolución territorial o la posibilidad de devolver conocimiento a quienes generan la información.
 
-Estas herramientas aportan información valiosa, pero presentan limitaciones relacionadas con costos, periodicidad, representatividad o tiempo de respuesta.
-
-El proyecto explora la posibilidad de incorporar una fuente complementaria de información basada en observaciones distribuidas realizadas por personas que participan voluntariamente de una red territorial.
+Este proyecto propone explorar una alternativa basada en observación territorial distribuida.
 
 ---
 
 # 3. Hipótesis
 
-Una red distribuida de observadores, organizada mediante un protocolo simple y sostenida por un mecanismo permanente de devolución de conocimiento, puede detectar fenómenos territoriales emergentes antes de que se consoliden como agenda pública.
+Una red de estaciones que realiza observaciones siguiendo un protocolo común puede producir evidencia territorial suficiente para identificar fenómenos emergentes antes de que éstos se consoliden como agenda pública.
+
+Si esa evidencia resulta consistente, será posible construir pronósticos territoriales que sirvan como insumo para el diseño de estrategias de comunicación política.
 
 ---
 
-# 4. Objetivo
+# 4. Objetivo general
 
-Diseñar, implementar y evaluar un prototipo funcional que permita:
-
-* construir una pequeña red de estaciones;
-* recolectar observaciones territoriales;
-* representarlas espacialmente;
-* generar un pronóstico semanal;
-* producir una recomendación comunicacional basada en evidencia.
+Diseñar y validar un método de producción de evidencia territorial distribuida aplicable a la comunicación política.
 
 ---
 
-# 5. Método
+# 5. Objetivos específicos
 
-El proyecto se desarrollará en etapas.
-
-## Etapa 1
-
-Diseño conceptual del método.
-
----
-
-## Etapa 2
-
-Implementación de una infraestructura mínima.
-
-* teléfono dedicado;
-* WhatsApp Business;
-* base de datos;
-* repositorio de documentación.
+* Diseñar un protocolo de observación territorial.
+* Construir una primera red de estaciones.
+* Registrar observaciones durante un período determinado.
+* Identificar eventos y fenómenos territoriales.
+* Elaborar indicadores.
+* Construir un primer pronóstico.
+* Generar una recomendación comunicacional basada en la evidencia obtenida.
+* Evaluar fortalezas y limitaciones del método.
 
 ---
 
-## Etapa 3
+# 6. Método
 
-Construcción de una primera red de estaciones.
+El proyecto se desarrollará mediante un enfoque experimental.
 
----
+El proceso comprende las siguientes etapas.
 
-## Etapa 4
+1. Diseño del protocolo.
+2. Construcción de la red.
+3. Registro de observaciones.
+4. Identificación de eventos.
+5. Detección de fenómenos.
+6. Construcción de indicadores.
+7. Elaboración del pronóstico.
+8. Producción de una recomendación comunicacional.
+9. Evaluación del experimento.
 
-Recolección periódica de observaciones.
-
----
-
-## Etapa 5
-
-Representación territorial de la información.
-
----
-
-## Etapa 6
-
-Elaboración de un pronóstico.
+Cada etapa será documentada y deberá poder reproducirse.
 
 ---
 
-## Etapa 7
+# 7. Caso de uso
 
-Construcción de una recomendación comunicacional para un territorio específico.
+La validación se realizará en el contexto de la comunicación política.
 
----
+El laboratorio buscará responder si la evidencia producida por una red distribuida de estaciones permite construir pronósticos territoriales útiles para orientar estrategias de comunicación.
 
-# 6. Caso piloto
+No se evaluará el éxito electoral de esas estrategias.
 
-El piloto se desarrollará en el municipio de General San Martín.
-
-El objetivo del piloto no será alcanzar representatividad estadística.
-
-El objetivo será validar el método.
-
-Se evaluarán especialmente:
-
-* factibilidad técnica;
-* participación;
-* continuidad de las estaciones;
-* utilidad de la información obtenida.
+Se evaluará exclusivamente la factibilidad metodológica del proceso.
 
 ---
 
-# 7. Productos esperados
+# 8. Resultados esperados
 
-Al finalizar la diplomatura se espera contar con:
+Se espera obtener.
 
-* una metodología documentada;
-* un piloto implementado;
-* una red inicial de estaciones;
-* un conjunto de observaciones georreferenciadas;
-* mapas temáticos;
+* un protocolo reproducible;
+* una primera red de estaciones;
+* un conjunto de observaciones territoriales;
+* uno o más fenómenos identificados;
 * un primer pronóstico territorial;
-* una recomendación comunicacional elaborada a partir del pronóstico.
+* una recomendación comunicacional basada en evidencia;
+* una evaluación crítica del método.
+
+Los resultados podrán confirmar, refutar o reformular la hipótesis inicial.
+
+Todos esos escenarios serán considerados válidos.
 
 ---
 
-# 8. Alcances
+# 9. Alcance
 
-Este proyecto no pretende reemplazar los métodos tradicionales de investigación de opinión pública.
+El proyecto no pretende construir una plataforma tecnológica completa.
 
-Busca explorar una herramienta complementaria que permita incorporar señales tempranas provenientes del territorio.
+Tampoco busca desarrollar un sistema comercial.
 
----
+Su objetivo consiste en validar experimentalmente un método.
 
-# 9. Limitaciones
-
-El proyecto reconoce desde su inicio varias limitaciones.
-
-Entre ellas:
-
-* tamaño reducido del piloto;
-* sesgo de autoselección de los participantes;
-* tiempo limitado de observación;
-* imposibilidad de validar estadísticamente todos los resultados.
-
-Estas limitaciones forman parte del propio objeto de estudio y serán documentadas durante el desarrollo del proyecto.
+El Servicio Meteorológico Social continuará evolucionando con posterioridad a la diplomatura.
 
 ---
 
-# 10. Evolución del proyecto
+# 10. Productos
 
-Este documento representa únicamente el recorte del proyecto que será desarrollado durante la diplomatura.
+Al finalizar el proyecto se espera contar con:
 
-El proyecto general posee un alcance mayor y continuará evolucionando en paralelo dentro del laboratorio.
+* la documentación completa del método;
+* el repositorio del laboratorio;
+* la documentación del experimento;
+* un informe de resultados;
+* una evaluación metodológica;
+* recomendaciones para investigaciones futuras.
 
-Toda idea que exceda el alcance del MVP será documentada en **masterplan.md**, evitando modificar el proyecto mientras el piloto permanezca en ejecución.
+El principal resultado esperado no será una aplicación informática.
+
+Será la validación —o la refutación— de un método para producir evidencia territorial distribuida aplicada a la comunicación política.

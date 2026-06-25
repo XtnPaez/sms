@@ -1,292 +1,135 @@
-# Acta Fundacional del Laboratorio
+# Fundamentos
 
-## Índice
+> Este documento reúne los principios conceptuales que dieron origen al Servicio Meteorológico Social.
 
-1.  Propósito
-2.  Cómo nace la idea
-3.  El problema
-4.  Qué queremos demostrar
-5.  La analogía meteorológica
-6.  La analogía geodésica
-7.  La hipótesis
-8.  El laboratorio
-9.  El MVP
-10. Lo que deliberadamente dejamos afuera
-11. Principios del laboratorio
-12. Preguntas abiertas
-13. Próximos pasos
+No describe el método.
 
-------------------------------------------------------------------------
+No describe la implementación.
 
-# 1. Propósito
+Explica por qué creemos que es posible producir evidencia territorial mediante una red distribuida de observadores.
 
-Este documento es el acta fundacional del laboratorio del proyecto
-**Servicio Meteorológico Social (SMS)**.
+---
 
-No intenta ser un documento académico ni un texto definitivo. Es el
-registro del origen del proyecto, de las ideas que lo motivan, de las
-analogías que le dan sentido y de las primeras hipótesis que pretendemos
-poner a prueba.
+# Índice
 
-El objetivo del laboratorio no es demostrar que una idea es correcta.
+1. El problema
+2. La analogía meteorológica
+3. La hipótesis central
+4. El territorio como sistema
+5. La observación distribuida
+6. El conocimiento colectivo
+7. El alcance del laboratorio
 
-El objetivo es descubrir si la realidad la confirma o la obliga a
-cambiar.
+---
 
-------------------------------------------------------------------------
+# 1. El problema
 
-# 2. Cómo nace la idea
+Las organizaciones necesitan comprender qué ocurre en el territorio.
 
-La inquietud inicial aparece al observar una limitación frecuente de la
-comunicación política.
+Sin embargo, la mayor parte de la información disponible presenta al menos una de estas limitaciones.
 
-Las instituciones suelen actuar cuando el conflicto ya es visible.
+* llega tarde;
+* posee escasa resolución territorial;
+* resulta costosa de obtener;
+* depende de muestras reducidas;
+* no produce devolución hacia quienes generan la información.
 
-Las encuestas llegan tarde.
+Como consecuencia, muchas decisiones se toman utilizando información parcial, desactualizada o indirecta.
 
-Los focus groups son costosos.
+El Servicio Meteorológico Social surge como un intento de explorar una alternativa.
 
-El social listening depende de conversaciones que ya ocurrieron en
-plataformas públicas.
+---
 
-La pregunta inicial fue sencilla:
+# 2. La analogía meteorológica
 
-**¿Es posible construir un sistema que detecte tempranamente
-conversaciones territoriales antes de que se conviertan en agenda
-política?**
+La meteorología no predice el futuro.
 
-No buscamos reemplazar los métodos existentes.
+Observa continuamente el presente.
 
-Buscamos agregar una fuente nueva.
+Miles de estaciones distribuidas registran variables locales.
 
-------------------------------------------------------------------------
+La integración de esas observaciones permite identificar fenómenos de mayor escala y construir pronósticos.
 
-# 3. El problema
+El Servicio Meteorológico Social propone estudiar si un principio similar puede aplicarse al territorio.
 
-Hoy la mayor parte de la información utilizada para diseñar comunicación
-política proviene de:
+No pretende copiar la meteorología.
 
--   encuestas;
--   focus groups;
--   análisis de redes sociales;
--   medios de comunicación.
+Pretende adoptar su forma de producir conocimiento.
 
-Todos aportan valor.
+---
 
-Pero casi todos observan el territorio desde afuera.
+# 3. La hipótesis central
 
-La hipótesis del laboratorio es que existe otra capa de información:
+Si una red suficientemente distribuida de estaciones realiza observaciones territoriales siguiendo un mismo protocolo, entonces será posible identificar fenómenos emergentes antes de que se consoliden como agenda pública.
 
-Las conversaciones cotidianas.
+La hipótesis no afirma que todas las predicciones serán correctas.
 
-Las conversaciones de la esquina.
+Afirma únicamente que la observación distribuida podría aportar evidencia que hoy no se obtiene mediante los métodos tradicionales.
 
-Las conversaciones del club.
+Su validez deberá establecerse experimentalmente.
 
-Las conversaciones del almacén.
+---
 
-Las conversaciones del grupo de padres.
+# 4. El territorio como sistema
 
-Esas conversaciones pocas veces quedan registradas.
+El territorio no se entiende únicamente mediante estadísticas.
 
-------------------------------------------------------------------------
+Tampoco únicamente mediante relatos individuales.
 
-# 4. Qué queremos demostrar
+Es el resultado de múltiples fenómenos que evolucionan simultáneamente.
 
-No queremos demostrar que conocemos la opinión pública.
+Cada observación representa una parte de esa realidad.
 
-Queremos comprobar si una red distribuida de observadores puede detectar
-cambios en la conversación territorial antes de que esos cambios se
-consoliden como agenda.
+El laboratorio no busca reemplazar otras fuentes de información.
 
-Si eso ocurre, será posible construir un pronóstico.
+Busca integrarlas dentro de un modelo común de interpretación.
 
-No un diagnóstico.
+---
 
-Un pronóstico.
+# 5. La observación distribuida
 
-------------------------------------------------------------------------
+El laboratorio propone reemplazar la lógica de la consulta ocasional por la observación continua.
 
-# 5. La analogía meteorológica
+Las estaciones no responden únicamente preguntas.
 
-La meteorología no evita las tormentas.
+Observan.
 
-Las anticipa.
+Registran eventos.
 
-No mide cada metro cuadrado del territorio.
+Describen fenómenos.
 
-Construye una red de estaciones.
+Con el tiempo, esas observaciones permiten construir series históricas capaces de mostrar cambios, permanencias y tendencias.
 
-Cada estación observa únicamente su entorno inmediato.
+La observación constituye la materia prima del laboratorio.
 
-Ninguna estación conoce el clima completo.
+---
 
-El clima aparece cuando todas las observaciones se integran.
+# 6. El conocimiento colectivo
 
-La propuesta del laboratorio consiste en trasladar esa lógica al
-territorio social.
+Una observación aislada posee un valor limitado.
 
-Cada persona funciona como una estación.
+Muchas observaciones independientes pueden revelar patrones invisibles para cada estación por separado.
 
-Cada estación observa su entorno.
+El conocimiento surge de la integración.
 
-El modelo integra las observaciones.
+No de la suma.
 
-El resultado es un pronóstico del clima social.
+Por esa razón, el laboratorio considera que las estaciones no son únicamente proveedoras de información.
 
-------------------------------------------------------------------------
+Son participantes activos en la construcción del conocimiento colectivo.
 
-# 6. La analogía geodésica
+La devolución permanente hacia la red constituye una condición necesaria para sostener esa participación.
 
-Existe otra inspiración.
+---
 
-La red geodésica.
+# 7. El alcance del laboratorio
 
-No se mide todo el territorio.
+La comunicación política constituye el primer caso de aplicación del Servicio Meteorológico Social.
 
-Se construye una red de puntos de referencia correctamente distribuidos.
+Sin embargo, el laboratorio no se limita a ese campo.
 
-Esa red permite representar con precisión el resto del territorio.
+Si el método resulta válido, podrá adaptarse a cualquier organización que necesite comprender la evolución de fenómenos territoriales mediante evidencia distribuida.
 
-La hipótesis es equivalente.
+El verdadero producto del laboratorio no será una plataforma tecnológica.
 
-No necesitamos preguntarle a toda la población.
-
-Necesitamos una red suficientemente distribuida y calibrada de
-observadores.
-
-------------------------------------------------------------------------
-
-# 7. La hipótesis
-
-Hipótesis principal:
-
-> Una red distribuida de observadores territoriales, organizada mediante
-> un protocolo simple y sostenida por un mecanismo permanente de
-> devolución de conocimiento, puede producir señales tempranas útiles
-> para anticipar la agenda social local.
-
-La hipótesis podrá confirmarse o rechazarse mediante experimentos.
-
-------------------------------------------------------------------------
-
-# 8. El laboratorio
-
-Este repositorio documenta un laboratorio.
-
-No un producto terminado.
-
-El laboratorio tendrá dos ciclos.
-
-## Ciclo social
-
--   incorporar estaciones;
--   formular observaciones;
--   devolver resultados;
--   fortalecer la comunidad.
-
-## Ciclo analítico
-
--   historizar observaciones;
--   incorporar capas territoriales;
--   generar indicadores;
--   elaborar pronósticos;
--   producir recomendaciones para comunicación política.
-
-------------------------------------------------------------------------
-
-# 9. El MVP
-
-El MVP será deliberadamente pequeño.
-
-Municipio piloto.
-
-Red reducida de estaciones.
-
-Preguntas simples.
-
-Mapas sencillos.
-
-Pronósticos semanales.
-
-El objetivo del MVP no será construir una plataforma.
-
-Será validar el método.
-
-------------------------------------------------------------------------
-
-# 10. Lo que deliberadamente dejamos afuera
-
-Durante el proceso aparecieron numerosas ideas:
-
--   aplicaciones comerciales;
--   sincronización de eventos;
--   inteligencia colectiva;
--   usos para empresas;
--   turismo;
--   gastronomía;
--   salud;
--   movilidad.
-
-Todas ellas permanecen vivas.
-
-Pero no forman parte del MVP.
-
-Serán registradas en Masterplan.
-
-------------------------------------------------------------------------
-
-# 11. Principios del laboratorio
-
--   Las hipótesis valen más que las certezas.
--   Los experimentos valen más que las opiniones.
--   Toda decisión deja un registro.
--   Los errores también producen conocimiento.
--   El MVP tiene prioridad sobre las ideas futuras.
--   El conocimiento colectivo requiere devolución permanente.
--   La comunidad no existe para servir al modelo; el modelo existe para
-    hacer más útil a la comunidad.
-
-------------------------------------------------------------------------
-
-# 12. Preguntas abiertas
-
--   ¿WhatsApp es el canal adecuado?
--   ¿Qué incentiva la permanencia?
--   ¿Cuántas estaciones hacen falta?
--   ¿Cómo se calibra una estación?
--   ¿Cómo se valida un pronóstico?
--   ¿Qué significa "anticipar" una agenda?
--   ¿Qué capas territoriales agregan mayor valor?
-
-------------------------------------------------------------------------
-
-# 13. Próximos pasos
-
-1.  Diseñar el proyecto de la diplomatura.
-2.  Definir el protocolo de observación.
-3.  Diseñar la base de datos.
-4.  Implementar la infraestructura.
-5.  Construir la primera red de estaciones.
-6.  Ejecutar el piloto.
-7.  Evaluar resultados.
-8.  Revisar la hipótesis.
-
-------------------------------------------------------------------------
-
-## Nota final
-
-Este documento no pretende conservar conclusiones.
-
-Pretende conservar preguntas.
-
-Si el laboratorio funciona, este archivo crecerá durante meses.
-
-Si alguna hipótesis resulta equivocada, no se eliminará.
-
-Se documentará el motivo del cambio.
-
-Porque el verdadero producto de este laboratorio no es únicamente un
-método.
-
-Es el conocimiento construido durante el camino.
+Será un método reproducible para transformar observaciones distribuidas en conocimiento territorial.

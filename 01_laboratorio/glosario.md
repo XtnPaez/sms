@@ -1,199 +1,155 @@
 # Glosario
 
-## Índice
+> Este documento reúne las definiciones oficiales del Servicio Meteorológico Social.
 
-* Agenda social
-* Capa territorial
-* Clima social
-* Cobertura
-* Comunidad
-* Conocimiento colectivo
-* Estación
-* Hipótesis
-* Latencia
-* Motor analítico
-* Motor de participación
-* Observación
-* Pronóstico
-* Red
-* Señal
-* Temperatura social
+Todo concepto utilizado por el laboratorio deberá definirse aquí una única vez.
+
+Las demás publicaciones deberán referenciar este documento y evitar redefinir términos.
 
 ---
 
-# Agenda social
+# Índice
 
-Conjunto de temas que aparecen de manera recurrente en las conversaciones de un territorio durante un período determinado.
-
-No necesariamente coincide con la agenda mediática.
-
----
-
-# Capa territorial
-
-Información adicional utilizada para contextualizar las observaciones.
-
-Ejemplos:
-
-* población;
-* resultados electorales;
-* infraestructura;
-* pobreza;
-* equipamiento urbano.
+1. Estación
+2. Observación
+3. Evento
+4. Fenómeno
+5. Indicador
+6. Pronóstico
+7. Recomendación
+8. Evidencia territorial
+9. Red de estaciones
+10. Método
 
 ---
 
-# Clima social
+# 1. Estación
 
-Estado general de las conversaciones observadas en un territorio durante un momento determinado.
+Unidad básica de observación del Servicio Meteorológico Social.
 
----
+Una estación representa la interfaz entre un territorio y el laboratorio.
 
-# Cobertura
+En la implementación inicial una estación será una persona.
 
-Grado en que la red representa territorialmente el área bajo observación.
-
----
-
-# Comunidad
-
-Conjunto de personas que participan voluntariamente de la red de observación.
-
-La comunidad existe para producir y recibir conocimiento.
-
-No solamente para generar datos.
+Sin embargo, el método permite que una estación sea, en el futuro, una organización, una institución, un sensor automático o cualquier otro dispositivo capaz de producir observaciones siguiendo el protocolo del laboratorio.
 
 ---
 
-# Conocimiento colectivo
+# 2. Observación
 
-Información que emerge únicamente cuando múltiples observaciones independientes son integradas.
+Registro realizado por una estación acerca de un hecho ocurrido en un territorio durante un período determinado.
 
----
+La observación constituye la unidad mínima de información producida por una estación.
 
-# Estación
+Una observación describe.
 
-Persona que participa regularmente realizando observaciones sobre su entorno inmediato.
+No interpreta.
 
-La estación no representa al barrio.
+No explica.
 
-Representa un punto de observación dentro de la red.
-
----
-
-# Hipótesis
-
-Afirmación que todavía requiere validación experimental.
+No recomienda.
 
 ---
 
-# Latencia
+# 3. Evento
 
-Tiempo transcurrido entre la aparición de una conversación en el territorio y su detección por el modelo.
+Manifestación concreta de un fenómeno en un momento y territorio determinados.
 
----
+Mientras un fenómeno representa un patrón, un evento representa una ocurrencia específica de ese patrón.
 
-# Motor analítico
+Un fenómeno puede estar compuesto por múltiples eventos.
 
-Conjunto de procesos que integran observaciones, capas territoriales e históricos para producir indicadores y pronósticos.
-
----
-
-# Motor de participación
-
-Conjunto de mecanismos destinados a mantener activa la comunidad de estaciones.
+Los eventos constituyen la evidencia observable a partir de la cual el laboratorio identifica fenómenos.
 
 ---
 
-# Observación
+# 4. Fenómeno
 
-Registro realizado por una estación sobre aquello que percibe en su entorno.
-
-No pretende representar una verdad absoluta.
-
-Constituye una evidencia localizada.
-
----
-
-# Red
-
-Conjunto organizado de estaciones distribuidas espacialmente.
-
----
-
-# Señal
-
-Indicio inicial de un fenómeno emergente.
-
-Una señal aislada no constituye un pronóstico.
-
----
-
-# Temperatura social
-
-Indicador derivado utilizado para representar la intensidad relativa de un tema dentro de un territorio.
-
-Su definición operativa podrá modificarse durante el desarrollo del proyecto.
-
----
-
-# Pronóstico
-
-Estimación probabilística sobre la evolución futura de uno o más fenómenos territoriales, construida a partir de observaciones históricas, contexto territorial e indicadores derivados.
-
-Un pronóstico no constituye una certeza.
-
-Expresa el escenario más probable según la evidencia disponible en un momento determinado.
-
-Todo pronóstico debe indicar explícitamente:
-
-- período de validez;
-- territorio observado;
-- nivel de confianza;
-- evidencia utilizada.
-
-Los pronósticos constituyen la entrada del Motor de Comunicación y no representan recomendaciones por sí mismos.
-
----
-
-# Fenómeno
-
-Un fenómeno es una manifestación observable que aparece de manera repetida dentro de un territorio durante un período determinado.
+Patrón observable que surge de la integración de múltiples eventos registrados por distintas estaciones.
 
 Un fenómeno no constituye una explicación.
 
 Tampoco representa necesariamente un problema.
 
-Simplemente describe la aparición de un patrón suficientemente visible como para justificar su registro.
+Describe una regularidad suficientemente consistente como para justificar su análisis.
 
-Ejemplos.
+El laboratorio no observa directamente fenómenos.
 
-- En distintos grupos comenzó a hablarse del estado de una plaza.
-- Varias personas mencionan demoras en una misma línea de colectivo.
-- Aumentan las conversaciones sobre seguridad en un barrio.
-- Disminuyen las menciones sobre un tema que semanas atrás era frecuente.
-
-Los fenómenos constituyen el objeto de observación del Servicio Meteorológico Social.
+Los identifica a partir de observaciones distribuidas.
 
 ---
 
-# Evento
+# 5. Indicador
 
-Un evento es la ocurrencia concreta de un fenómeno en un momento y territorio determinados.
+Medida obtenida mediante el procesamiento de una o más observaciones, eventos o fenómenos.
 
-Mientras un fenómeno representa un patrón, un evento representa una manifestación específica de ese patrón.
+Los indicadores permiten describir el estado y la evolución del territorio mediante valores comparables.
 
-Ejemplos.
+Los indicadores no constituyen pronósticos.
 
-Fenómeno:
-"Aumentan las conversaciones sobre inseguridad."
+Representan evidencia sintetizada.
 
-Eventos asociados:
+---
 
-- Un robo comentado repetidamente en un barrio.
-- Una publicación vecinal con amplia difusión.
-- Una reunión barrial convocada por ese motivo.
+# 6. Pronóstico
 
-Un fenómeno puede estar compuesto por múltiples eventos.
+Estimación probabilística sobre la evolución futura de uno o más fenómenos territoriales construida a partir de observaciones históricas, indicadores y contexto territorial.
 
-Los eventos constituyen la evidencia observable a partir de la cual el laboratorio identifica fenómenos.
+Todo pronóstico deberá indicar explícitamente:
+
+* período de validez;
+* territorio observado;
+* nivel de confianza;
+* evidencia utilizada.
+
+El pronóstico expresa el escenario más probable según la información disponible.
+
+No constituye una certeza.
+
+---
+
+# 7. Recomendación
+
+Sugerencia de acción elaborada a partir de uno o más pronósticos.
+
+Las recomendaciones no forman parte del proceso de observación.
+
+Constituyen una posible aplicación del conocimiento producido por el laboratorio.
+
+Distintos actores podrán elaborar recomendaciones diferentes utilizando la misma evidencia.
+
+---
+
+# 8. Evidencia territorial
+
+Conjunto organizado de observaciones, eventos, fenómenos e indicadores obtenidos mediante el método del laboratorio.
+
+La evidencia territorial constituye la base sobre la cual se construyen los pronósticos.
+
+---
+
+# 9. Red de estaciones
+
+Conjunto de estaciones que realizan observaciones utilizando un protocolo común.
+
+La calidad del laboratorio depende tanto de la cantidad de estaciones como de su distribución territorial, continuidad y consistencia metodológica.
+
+---
+
+# 10. Método
+
+Conjunto de principios, reglas, protocolos y procedimientos utilizados por el Servicio Meteorológico Social para transformar observaciones distribuidas en evidencia territorial.
+
+El método constituye el principal producto del laboratorio.
+
+Las herramientas tecnológicas utilizadas para implementarlo podrán cambiar sin modificar su esencia.
+
+---
+
+# Regla editorial
+
+Todo concepto nuevo deberá incorporarse primero a este documento.
+
+Ningún término importante deberá definirse simultáneamente en más de un archivo.
+
+El objetivo del glosario consiste en garantizar que todo el laboratorio utilice un lenguaje común.

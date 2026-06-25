@@ -1,111 +1,125 @@
 # Manifiesto
 
-## Índice
+> El Servicio Meteorológico Social nace de una convicción.
 
-1. Por qué existe este proyecto
-2. Qué creemos
-3. Qué no creemos
-4. Cómo queremos trabajar
-5. Nuestro compromiso
+Creemos que el territorio habla.
 
----
+No de una sola manera.
 
-# 1. Por qué existe este proyecto
+Habla en conversaciones.
 
-Creemos que una comunidad habla permanentemente.
+En encuentros.
 
-Habla en la esquina.
+En silencios.
 
-En el club.
+En preocupaciones compartidas.
 
-En la escuela.
+En pequeños hechos cotidianos que, observados de manera aislada, parecen insignificantes.
 
-En el almacén.
-
-En el colectivo.
-
-En el grupo de WhatsApp.
-
-Sin embargo, gran parte de esas conversaciones nunca llega a transformarse en información útil para quienes toman decisiones.
-
-La comunicación política suele comenzar cuando la conversación ya explotó.
-
-Nos interesa explorar otra posibilidad.
-
-Escuchar antes.
-
-Comprender antes.
-
-Anticipar antes.
-
-No para controlar la conversación.
-
-Sino para comprender mejor el territorio.
+Pero que, observados en conjunto, revelan fenómenos de mayor escala.
 
 ---
 
-# 2. Qué creemos
+Durante décadas aprendimos a medir casi todo.
 
-Creemos que ninguna persona puede explicar un territorio.
+La economía.
 
-Pero muchas personas, observando pequeñas porciones del mismo, pueden construir una imagen colectiva mucho más rica.
+El clima.
 
-Creemos que una red distribuida de observadores puede producir conocimiento.
+La población.
 
-Creemos que devolver ese conocimiento a quienes participan fortalece la comunidad.
+La producción.
 
-Creemos que el territorio merece ser escuchado antes de ser interpretado.
+La salud.
 
-Creemos que los datos tienen valor cuando ayudan a comprender mejor una realidad y no solamente cuando confirman una hipótesis.
+Sin embargo, seguimos comprendiendo el territorio principalmente cuando los problemas ya ocurrieron.
 
----
+Creemos que es posible construir una forma diferente de observar.
 
-# 3. Qué no creemos
+No para reemplazar los métodos existentes.
 
-No creemos que este proyecto reemplace encuestas.
-
-No creemos que sustituya focus groups.
-
-No creemos que la inteligencia artificial pueda reemplazar la observación humana.
-
-No creemos que una comunidad exista únicamente para producir datos.
-
-No creemos que el objetivo sea convencer personas.
-
-El objetivo es comprender mejor aquello que ya está ocurriendo.
+Sino para complementarlos.
 
 ---
 
-# 4. Cómo queremos trabajar
+Creemos que ninguna persona posee una visión completa del territorio.
 
-Queremos experimentar.
+Cada observador conoce únicamente una parte.
 
-Queremos equivocarnos.
+El conocimiento surge cuando esas partes logran integrarse mediante un método común.
 
-Queremos documentar cada cambio de rumbo.
+Por esa razón, el Servicio Meteorológico Social no busca construir una base de datos.
 
-Queremos construir una comunidad antes que una plataforma.
-
-Queremos que la tecnología esté al servicio del método y no al revés.
-
-Queremos que el laboratorio produzca conocimiento incluso cuando una hipótesis resulte equivocada.
+Busca construir una red de observación.
 
 ---
 
-# 5. Nuestro compromiso
+Creemos que la tecnología constituye un medio.
 
-Este laboratorio no busca demostrar que ya conocemos las respuestas.
+No un fin.
 
-Busca formular mejores preguntas.
+Las plataformas cambiarán.
 
-Cada documento de este repositorio representa una fotografía del pensamiento en un momento determinado.
+Los algoritmos cambiarán.
 
-El proyecto evolucionará.
+Las herramientas cambiarán.
 
-Las hipótesis cambiarán.
+El método deberá sobrevivir a todas ellas.
 
-Los métodos mejorarán.
+---
 
-Pero el compromiso permanecerá igual:
+Creemos que las comunidades no existen para producir datos.
 
-Escuchar el territorio antes de intentar explicarlo.
+Los datos aparecen como consecuencia de una comunidad que encuentra valor en construir conocimiento colectivo.
+
+Por esa razón, toda participación merece una devolución.
+
+Observar sin devolver conocimiento rompe el vínculo de confianza sobre el cual se sostiene el laboratorio.
+
+---
+
+Creemos que los experimentos son más importantes que las opiniones.
+
+Toda hipótesis deberá enfrentarse a la realidad.
+
+Los resultados negativos también constituyen conocimiento.
+
+Descubrir que una idea no funciona representa un avance tan importante como descubrir que sí funciona.
+
+---
+
+Creemos que la simplicidad constituye una virtud metodológica.
+
+Agregar conceptos resulta sencillo.
+
+Eliminar complejidad requiere comprender profundamente el problema.
+
+El laboratorio buscará siempre la explicación más simple capaz de describir adecuadamente la realidad.
+
+---
+
+Creemos que un método vale más que una implementación.
+
+Las aplicaciones podrán cambiar.
+
+Las interfaces podrán cambiar.
+
+Las organizaciones podrán cambiar.
+
+Un buen método permanecerá útil incluso cuando desaparezca la tecnología que lo vio nacer.
+
+---
+
+El Servicio Meteorológico Social no pretende construir una aplicación.
+
+Tampoco pretende construir únicamente una comunidad.
+
+Pretende responder una pregunta.
+
+> ¿Es posible producir evidencia territorial distribuida mediante una red de observaciones realizadas bajo un protocolo común?
+
+Mientras esa pregunta permanezca abierta, el laboratorio seguirá existiendo.
+
+El día que la evidencia permita responderla, el laboratorio habrá cumplido su propósito.
+
+Y ese resultado será valioso, independientemente de cuál sea la respuesta.

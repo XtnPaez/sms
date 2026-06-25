@@ -1,426 +1,172 @@
 # Masterplan
 
-> Este documento reúne todas las ideas que exceden el alcance del MVP y de la diplomatura. Su función es preservar el potencial del proyecto sin contaminar el desarrollo del experimento principal.
+> Este documento describe la visión de largo plazo del Servicio Meteorológico Social.
+
+No representa el plan de trabajo actual.
+
+No forma parte del MVP.
+
+Su función consiste en conservar una visión amplia del laboratorio sin interferir con la validación del método.
 
 ---
 
 # Índice
 
-* Visión
-* Comunidad
-* Producto
-* Comunicación Política
-* Tecnología
-* SIG
-* Inteligencia Artificial
-* Modelo de Negocio
-* Verticales
-* Investigación
-* Escalabilidad
-* Ideas Locas
-* Algún día...
+1. Propósito
+2. Principios
+3. Visión
+4. Posibles líneas de evolución
+5. Casos de uso
+6. Límites del Masterplan
 
 ---
 
-# Visión
+# 1. Propósito
 
-## Objetivo final
+El laboratorio genera continuamente nuevas posibilidades.
 
-Construir un método para transformar conversaciones territoriales distribuidas en conocimiento colectivo y pronósticos útiles para la toma de decisiones.
+Muchas de ellas resultan valiosas.
 
-No construir una aplicación.
+Muy pocas son necesarias para validar el método.
 
-No construir una encuesta.
-
-Construir un método.
+Este documento evita que esas ideas desaparezcan sin permitir que desvíen el foco del laboratorio.
 
 ---
 
-## Gran hipótesis
+# 2. Principios
 
-Así como una red meteorológica permite anticipar el clima físico mediante estaciones distribuidas, una red de observadores territoriales podría anticipar la evolución de la agenda social.
+El crecimiento del laboratorio deberá respetar siempre los siguientes principios.
 
----
-
-# Comunidad
-
-## Red pública
-
-Una comunidad abierta.
-
-Participación voluntaria.
-
-La comunidad recibe conocimiento a cambio de participar.
-
-Nunca solamente preguntas.
+* El método tiene prioridad sobre el software.
+* La evidencia tiene prioridad sobre la opinión.
+* La comunidad tiene prioridad sobre el dato.
+* La simplicidad tiene prioridad sobre la complejidad.
+* La validación tiene prioridad sobre la expansión.
 
 ---
 
-## Red privada
+# 3. Visión
 
-Implementaciones específicas para:
+Si el método demuestra ser válido, el Servicio Meteorológico Social podrá transformarse en una infraestructura para producir evidencia territorial distribuida.
 
-* municipios
-* campañas
-* empresas
-* sindicatos
-* universidades
-* ONGs
+La comunicación política constituye únicamente el primer dominio de aplicación.
+
+El objetivo de largo plazo consiste en construir un método capaz de adaptarse a distintos contextos sin modificar sus principios fundamentales.
 
 ---
 
-## Participación
+# 4. Posibles líneas de evolución
 
-Que participar sea útil.
+## Nuevos tipos de estaciones
 
-No solamente altruista.
-
-La comunidad debe obtener información que no tendría sin participar.
-
----
-
-## Incentivos
-
-No económicos.
-
-Curiosidad.
-
-Pertenencia.
-
-Reconocimiento.
-
-Acceso temprano al conocimiento colectivo.
+* clubes;
+* escuelas;
+* centros de salud;
+* organizaciones sociales;
+* comercios;
+* instituciones públicas;
+* sensores automáticos;
+* sistemas externos.
 
 ---
 
-## Crecimiento
+## Nuevos canales de observación
 
-El objetivo nunca será tener muchos usuarios.
-
-El objetivo será tener una buena red.
-
----
-
-# Producto
-
-## Motor de Participación
-
-Mantiene viva la comunidad.
+* WhatsApp;
+* aplicaciones móviles;
+* formularios;
+* APIs;
+* correo electrónico;
+* otras plataformas de mensajería.
 
 ---
 
-## Motor Analítico
+## Nuevos productos
 
-Produce indicadores.
-
----
-
-## Motor de Pronóstico
-
-Genera escenarios.
-
----
-
-## Motor de Comunicación
-
-Sugiere líneas comunicacionales.
+* mapas vivos;
+* boletines territoriales;
+* tableros de control;
+* indicadores históricos;
+* sistemas de alerta temprana;
+* motores de recomendación.
 
 ---
 
-## API
+## Automatización
 
-Todo el conocimiento debería poder consumirse desde una API.
+* clasificación automática de observaciones;
+* identificación de fenómenos;
+* generación asistida de pronósticos;
+* asistencia mediante inteligencia artificial.
 
----
-
-## Dashboard
-
-Mapa vivo.
-
-Series temporales.
-
-Pronósticos.
-
-Cobertura.
-
-Latencia.
+La automatización deberá incorporarse únicamente cuando el método ya haya sido validado.
 
 ---
 
-# Comunicación Política
+# 5. Casos de uso
 
-Pronóstico semanal.
+El método podría adaptarse a distintos dominios.
 
-Temperatura social.
+Por ejemplo.
 
-Temas emergentes.
+## Comunicación política
 
-Agenda territorial.
-
-Agenda mediática.
-
-Comparación entre ambas.
-
-Recomendaciones comunicacionales.
-
-Alertas tempranas.
-
-Mapa de riesgos.
-
-Mapa de oportunidades.
+Construcción de pronósticos territoriales para orientar estrategias de comunicación.
 
 ---
 
-# Tecnología
+## Gobiernos locales
 
-WhatsApp Business.
-
-Comunidades.
-
-Canales.
-
-Bot.
-
-Instagram.
-
-Dashboard web.
-
-PostgreSQL.
-
-PostGIS.
-
-API REST.
-
-Python.
-
-IA.
+Observación distribuida de fenómenos urbanos y necesidades territoriales.
 
 ---
 
-# SIG
+## Organizaciones sociales
 
-Toda observación debe tener territorio.
-
-Capas posibles:
-
-* radios censales
-* barrios
-* circuitos electorales
-* escuelas
-* clubes
-* centros de salud
-* transporte
-* pobreza
-* población
-* servicios
-* resultados electorales
-* catastros
-* usos del suelo
-
----
-
-# Inteligencia Artificial
-
-No comenzar por IA.
-
-Incorporarla únicamente cuando exista un problema claro.
-
-Posibles usos.
-
-Clasificación temática.
-
-Resúmenes.
-
-Detección de tendencias.
-
-Agrupamiento.
-
-Alertas.
-
-Asistente para consultores.
-
-Generación de informes.
-
----
-
-# Modelo de Negocio
-
-Red pública gratuita.
-
-Análisis premium.
-
-Implementaciones privadas.
-
-Consultoría.
-
-Capacitación.
-
-Instalación de redes.
-
-Licenciamiento del método.
-
-SaaS.
-
-API.
-
----
-
-# Verticales
-
-## Política
-
-Pronóstico territorial.
-
----
-
-## Municipios
-
-Escucha territorial.
+Seguimiento de problemáticas comunitarias y construcción colectiva de evidencia.
 
 ---
 
 ## Empresas
 
-Radar de consumo.
+Comprensión de fenómenos territoriales vinculados con clientes, servicios o consumo.
 
 ---
 
-## Gastronomía
+## Investigación
 
-Radar gastronómico.
-
----
-
-## Turismo
-
-Radar turístico.
+Producción continua de evidencia para estudios sociales y territoriales.
 
 ---
 
 ## Cultura
 
-Agenda cultural distribuida.
+Identificación de actividades, redes comunitarias y circulación territorial de iniciativas culturales.
 
 ---
 
-## Educación
+# 6. Límites del Masterplan
 
-Agenda educativa.
+Nada de lo registrado en este documento constituye un compromiso de implementación.
 
----
+Toda incorporación al método deberá justificarse mediante evidencia obtenida durante los experimentos.
 
-## Salud
+El laboratorio crecerá únicamente cuando la realidad demuestre que ese crecimiento resulta necesario.
 
-Detección temprana de conversaciones sobre enfermedades.
-
----
-
-## Movilidad
-
-Problemas de transporte.
+Hasta entonces, el método permanecerá deliberadamente pequeño.
 
 ---
 
-# Investigación
+# Regla editorial
 
-Comparar con:
+El Masterplan conserva la dirección del laboratorio.
 
-* encuestas
-* focus groups
-* social listening
-* ciencia ciudadana
-* OpenStreetMap
-* teoría de redes
-* agenda setting
-* comunicación política
-* SIG
-* meteorología
-* geodesia
+El Roadmap organiza el trabajo.
 
----
+El TODO organiza las tareas.
 
-# Escalabilidad
+Las IDEAS conservan intuiciones.
 
-San Martín.
+Cada documento responde una pregunta distinta.
 
-Provincia.
-
-Argentina.
-
-Latinoamérica.
-
----
-
-# Ideas Locas
-
-Servicio Meteorológico Social.
-
-Servicio Sismológico Social.
-
-Mapa de conversaciones.
-
-Índice de temperatura social.
-
-Índice de presión social.
-
-Índice de incertidumbre.
-
-Radar ciudadano.
-
-Observatorio territorial.
-
-Red geodésica social.
-
-Estaciones certificadas.
-
-Niveles de confianza.
-
-Calibración de estaciones.
-
-Corresponsales territoriales.
-
-Mapa de conversaciones históricas.
-
-Predicción electoral.
-
-Asistente para intendentes.
-
-Asistente para periodistas.
-
-Asistente para dirigentes sociales.
-
----
-
-# Algún día...
-
-Aplicación propia.
-
-Sensores automáticos.
-
-Modelo predictivo entrenado.
-
-Integración con medios.
-
-Integración con organismos públicos.
-
-Publicación de indicadores abiertos.
-
-API pública.
-
-Repositorio metodológico.
-
-Implementación internacional.
-
----
-
-# Ideas que todavía no sabemos dónde poner
-
-(Este apartado existe para evitar perder ideas.)
-
-Si aparece una idea nueva y todavía no sabemos en qué categoría encaja, la escribimos acá.
-
-Después encontraremos su lugar.
-
-El objetivo del Masterplan no es ordenar.
-
-El objetivo es que ninguna buena idea vuelva a perderse.
+Mantener esa separación constituye una condición necesaria para preservar la coherencia del proyecto.
