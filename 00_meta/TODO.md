@@ -1,60 +1,125 @@
 # TODO
 
-> Lista de trabajo del laboratorio.
+> Estado operativo del Servicio Meteorológico Social.
 
-# Ahora mismo
+Este documento registra únicamente el trabajo pendiente.
 
-- Finalizar la edición metodológica v0.3.
-- Congelar la teoría.
-- Comenzar el diseño del primer experimento.
+No reemplaza al Roadmap.
 
----
+No reemplaza al Masterplan.
 
-# En curso
-
-* Revisar coherencia de toda la documentación.
-* Definir el protocolo definitivo de observación.
-* Diseñar el modelo lógico de datos.
-* Escribir el Estado del Arte.
+Su objetivo consiste en indicar qué debe hacerse para avanzar en el estado actual del laboratorio.
 
 ---
 
-# Próximo paso
+# Índice
 
-* Comprar notebook dedicada.
-* Comprar teléfono.
-* Comprar chip.
-* Configurar Git.
-* Configurar PostgreSQL.
-* Configurar WhatsApp Business.
-* Crear identidad visual mínima.
+1. En curso
+2. Próximo hito
+3. MVP
+4. Después del MVP
+5. Largo plazo
 
 ---
 
-# MVP
+# 1. En curso
 
-* Construir primera comunidad.
-* Incorporar primeras estaciones.
-* Ejecutar primera observación.
-* Publicar primer mapa.
-* Generar primer pronóstico.
-* Escribir primera recomendación.
+## Documentación
 
----
-
-# Más adelante
-
-* Dashboard.
-* API.
-* Automatización.
-* IA.
-* Modelo predictivo.
+* [ ] Finalizar la edición metodológica del repositorio.
+* [ ] Revisar la coherencia interna de todos los documentos.
+* [ ] Congelar la versión 1.0 del método.
 
 ---
 
-# Algún día
+## Método
 
-* Publicación científica.
-* Libro.
-* Licenciamiento del método.
-* Implementaciones internacionales.
+* [ ] Definir criterios de validación del laboratorio.
+* [ ] Diseñar el primer experimento.
+* [ ] Revisar el protocolo de estaciones.
+
+---
+
+# 2. Próximo hito
+
+## Infraestructura
+
+* [ ] Comprar una notebook dedicada al laboratorio.
+* [ ] Comprar un teléfono exclusivo para el proyecto.
+* [ ] Comprar un chip exclusivo.
+* [ ] Configurar Git.
+* [ ] Configurar PostgreSQL.
+* [ ] Configurar el entorno de desarrollo.
+* [ ] Configurar WhatsApp Business.
+
+---
+
+## Identidad
+
+* [ ] Definir nombre definitivo.
+* [ ] Diseñar identidad visual mínima.
+* [ ] Crear logo provisorio.
+* [ ] Crear repositorio público (cuando corresponda).
+
+---
+
+# 3. MVP
+
+## Red
+
+* [ ] Construir la primera red de estaciones.
+* [ ] Incorporar las primeras observaciones.
+* [ ] Validar el protocolo.
+
+---
+
+## Información
+
+* [ ] Registrar eventos.
+* [ ] Detectar fenómenos.
+* [ ] Construir indicadores.
+* [ ] Generar el primer pronóstico.
+
+---
+
+## Comunicación
+
+* [ ] Elaborar la primera recomendación basada en evidencia.
+* [ ] Documentar completamente el experimento.
+
+---
+
+# 4. Después del MVP
+
+* [ ] Automatizar procesos.
+* [ ] Construir API.
+* [ ] Desarrollar dashboard.
+* [ ] Incorporar inteligencia artificial.
+* [ ] Diseñar nuevos casos de uso.
+
+---
+
+# 5. Largo plazo
+
+* [ ] Publicar un artículo científico.
+* [ ] Presentar el método en congresos.
+* [ ] Escribir un libro sobre el laboratorio.
+* [ ] Validar el método en organizaciones externas.
+* [ ] Diseñar una versión abierta del Servicio Meteorológico Social.
+
+---
+
+# Regla
+
+Este documento refleja únicamente el trabajo pendiente.
+
+Cuando una tarea finaliza:
+
+* se elimina de este documento;
+* si produjo un cambio conceptual, se registra en `CHANGELOG.md`;
+* si produjo conocimiento nuevo, se documenta en el archivo correspondiente;
+* si produjo evidencia experimental, se registra en `03_experimentos`.
+
+El objetivo del laboratorio no consiste en completar tareas.
+
+Consiste en aumentar el conocimiento disponible.

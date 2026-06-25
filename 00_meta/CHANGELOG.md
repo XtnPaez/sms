@@ -1,59 +1,112 @@
 # CHANGELOG
 
-> Registro de la evolución conceptual del laboratorio.
+> Registro de la evolución conceptual del Servicio Meteorológico Social.
 
-Este archivo no documenta cambios de software.
+Este documento registra exclusivamente cambios que afectan la teoría, el método o la organización del laboratorio.
 
-Documenta cambios en la forma de pensar el proyecto.
-
----
-
-# v0.2 — Fundación del laboratorio
-
-## Nace el laboratorio
-
-El proyecto deja de ser un trabajo para una diplomatura y pasa a concebirse como un laboratorio de investigación.
+No documenta cambios de software, correcciones menores ni tareas de implementación.
 
 ---
 
-## Cambia el objetivo
+# Índice
 
-Antes.
-
-> Diseñar una herramienta de comunicación política.
-
-Ahora.
-
-> Diseñar un método para producir evidencia territorial distribuida.
-
-La comunicación política pasa a ser el primer caso de aplicación.
+1. Criterios de registro
+2. Historial
 
 ---
 
-## Nace el método
+# 1. Criterios de registro
 
-Se incorporan.
+Se registra únicamente aquello que modifica alguno de los siguientes aspectos.
 
-* Manual de Estaciones.
-* Modelo de Información.
-* Arquitectura del Sistema.
-* Stack Tecnológico.
-* Métricas.
+* La hipótesis principal.
+* El método.
+* La arquitectura conceptual.
+* La organización del repositorio.
+* El vocabulario del laboratorio.
+* Los principios metodológicos.
+* Las decisiones estructurales.
 
----
-
-## Cambia la organización
-
-El repositorio deja de organizarse por archivos.
-
-Comienza a organizarse según el ciclo de construcción del conocimiento.
+Las correcciones editoriales menores no forman parte de este documento.
 
 ---
 
-## Nueva filosofía
+# 2. Historial
 
-El método tiene prioridad sobre la tecnología.
+## v0.3 — Consolidación del laboratorio
 
-La evidencia tiene prioridad sobre la opinión.
+### Cambio de enfoque
 
-La comunidad tiene prioridad sobre la extracción de datos.
+El proyecto deja de concebirse como una herramienta de comunicación política.
+
+Pasa a definirse como un laboratorio para el diseño de un método de producción de evidencia territorial distribuida.
+
+La comunicación política queda establecida como el primer caso de uso del método.
+
+---
+
+### Organización del conocimiento
+
+El repositorio se reorganiza alrededor del ciclo de construcción del conocimiento.
+
+La estructura pasa a dividirse en:
+
+* laboratorio;
+* método;
+* experimentos;
+* bibliografía;
+* material.
+
+---
+
+### Consolidación metodológica
+
+Se incorporan como componentes permanentes del método:
+
+* protocolo de estaciones;
+* modelo de información;
+* arquitectura del sistema;
+* métricas;
+* stack tecnológico.
+
+---
+
+### Evolución conceptual
+
+Se formalizan los conceptos de:
+
+* estación;
+* observación;
+* evento;
+* fenómeno;
+* indicador;
+* pronóstico.
+
+Estos conceptos pasan a constituir el vocabulario oficial del laboratorio.
+
+---
+
+### Principios editoriales
+
+Se adopta una política de edición basada en los siguientes principios.
+
+* Toda definición existe en un único lugar.
+* Cada documento responde una única pregunta.
+* Las modificaciones importantes producen una nueva versión completa del documento.
+* La documentación evoluciona como consecuencia de los experimentos.
+
+---
+
+### Nuevo rol del laboratorio
+
+El laboratorio deja de priorizar la producción de documentos.
+
+Pasa a priorizar la validación experimental del método.
+
+---
+
+## Próxima versión
+
+La versión v0.4 comenzará cuando exista evidencia obtenida mediante el primer experimento de campo.
+
+Hasta entonces, las modificaciones deberán limitarse a mejoras editoriales o correcciones conceptuales menores.

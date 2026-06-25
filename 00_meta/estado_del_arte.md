@@ -1,6 +1,6 @@
 # Estado del Arte
 
-> El Servicio Meteorológico Social no surge en el vacío. Este documento identifica los principales antecedentes conceptuales y metodológicos sobre los cuales se construye el laboratorio y señala cuál es su posible aporte original.
+> Este documento identifica los principales enfoques utilizados actualmente para producir conocimiento sobre la realidad social y territorial. Su objetivo no consiste en demostrar que el Servicio Meteorológico Social es superior a esos enfoques, sino explicar qué problema intenta resolver y cuál podría ser su aporte específico.
 
 ---
 
@@ -8,21 +8,24 @@
 
 1. El problema
 2. Métodos existentes
-3. Fortalezas y limitaciones
-4. Hipótesis del laboratorio
-5. Aporte esperado
+3. Comparación de enfoques
+4. Espacio metodológico del SMS
+5. Hipótesis del laboratorio
+6. Aporte esperado
 
 ---
 
 # 1. El problema
 
-Las organizaciones necesitan comprender qué ocurre en el territorio para tomar mejores decisiones.
+Las organizaciones toman decisiones sobre territorios que conocen de manera incompleta.
 
-Actualmente existen distintos métodos para producir esa información.
+Para comprender esa realidad suelen utilizar herramientas como encuestas, estudios cualitativos, análisis de redes sociales o relevamientos territoriales.
 
-Cada uno resuelve una parte del problema.
+Cada una de ellas produce información valiosa.
 
-Ninguno parece resolverlo completamente.
+Sin embargo, presentan distintas limitaciones cuando el objetivo consiste en observar fenómenos territoriales de manera continua, distribuida y con devolución hacia quienes generan la información.
+
+El Servicio Meteorológico Social surge como una exploración metodológica orientada a ese problema.
 
 ---
 
@@ -34,13 +37,15 @@ Ninguno parece resolverlo completamente.
 
 * representatividad;
 * comparabilidad;
-* tradición metodológica.
+* tradición metodológica;
+* inferencia estadística.
 
 ### Limitaciones
 
-* costo;
+* alto costo;
 * baja frecuencia;
-* fotografía de un momento.
+* fotografía de un momento específico;
+* escasa devolución hacia quienes responden.
 
 ---
 
@@ -48,15 +53,15 @@ Ninguno parece resolverlo completamente.
 
 ### Fortalezas
 
-* profundidad;
+* comprensión profunda;
 * contexto;
-* comprensión cualitativa.
+* riqueza cualitativa.
 
 ### Limitaciones
 
-* poca escala;
-* alto costo;
-* difícil repetición.
+* pequeña escala;
+* difícil repetición;
+* alto costo operativo.
 
 ---
 
@@ -64,15 +69,15 @@ Ninguno parece resolverlo completamente.
 
 ### Fortalezas
 
-* volumen;
-* velocidad;
+* gran volumen de información;
+* monitoreo continuo;
 * automatización.
 
 ### Limitaciones
 
 * depende de plataformas públicas;
-* no representa necesariamente el territorio;
-* observa conversaciones ya publicadas.
+* observa conversaciones ya iniciadas;
+* representa únicamente a quienes participan en esos espacios digitales.
 
 ---
 
@@ -80,14 +85,15 @@ Ninguno parece resolverlo completamente.
 
 ### Fortalezas
 
-* participación;
-* producción colectiva;
-* apropiación social del conocimiento.
+* producción distribuida de conocimiento;
+* participación voluntaria;
+* apropiación social de los resultados.
 
 ### Limitaciones
 
-* requiere comunidades sostenidas;
-* calidad heterogénea de los aportes.
+* requiere comunidades activas;
+* heterogeneidad en la calidad de las observaciones;
+* necesidad de mecanismos de validación.
 
 ---
 
@@ -95,13 +101,13 @@ Ninguno parece resolverlo completamente.
 
 ### Fortalezas
 
-* producción distribuida;
-* validación comunitaria;
-* mejora continua.
+* producción colaborativa;
+* mejora continua;
+* devolución inmediata a la comunidad.
 
 ### Limitaciones
 
-* orientado a información geográfica permanente;
+* orientado principalmente a información geográfica relativamente estable;
 * no diseñado para observar fenómenos sociales dinámicos.
 
 ---
@@ -111,72 +117,75 @@ Ninguno parece resolverlo completamente.
 Ejemplos.
 
 * sociedades de fomento;
-* referentes barriales;
-* manzaneras;
+* clubes;
+* parroquias;
 * corresponsales periodísticos;
-* promotores comunitarios.
+* promotores comunitarios;
+* referentes barriales.
 
-Todas ellas demostraron que una red distribuida puede producir conocimiento territorial de gran valor.
+Todas ellas demostraron históricamente que una red distribuida puede producir conocimiento territorial de enorme valor.
 
-Sin embargo, ese conocimiento rara vez se transforma en un sistema formal de observación continua.
-
----
-
-# 3. Fortalezas y limitaciones
-
-Todos los métodos anteriores producen información valiosa.
-
-El laboratorio no pretende reemplazarlos.
-
-Pretende explorar un espacio todavía poco desarrollado.
-
-La observación territorial distribuida mediante una red permanente de estaciones.
+Sin embargo, ese conocimiento rara vez se documenta mediante un método reproducible.
 
 ---
 
-# 4. Hipótesis del laboratorio
+# 3. Comparación de enfoques
 
-La originalidad del Servicio Meteorológico Social no consiste en inventar un nuevo instrumento de investigación.
+| Método                        | Unidad de análisis      | Cobertura   | Frecuencia | Participación | Devolución |
+| ----------------------------- | ----------------------- | ----------- | ---------- | ------------- | ---------- |
+| Encuestas                     | Respuesta               | Muestra     | Baja       | Baja          | No         |
+| Focus Group                   | Participante            | Grupo       | Muy baja   | Alta          | No         |
+| Social Listening              | Publicación             | Digital     | Alta       | Pasiva        | No         |
+| Ciencia Ciudadana             | Observación             | Distribuida | Variable   | Muy alta      | Parcial    |
+| OpenStreetMap                 | Edición                 | Territorial | Continua   | Muy alta      | Sí         |
+| Servicio Meteorológico Social | Observación territorial | Distribuida | Continua   | Muy alta      | Sí         |
 
-Consiste en combinar aportes provenientes de distintos campos.
+La tabla no establece una jerarquía entre métodos.
+
+Cada uno responde preguntas diferentes.
+
+---
+
+# 4. Espacio metodológico del SMS
+
+El Servicio Meteorológico Social no intenta reemplazar ninguno de los enfoques anteriores.
+
+Su hipótesis consiste en explorar un espacio metodológico todavía poco desarrollado:
+
+* observación territorial distribuida;
+* producción continua de evidencia;
+* integración de contexto territorial;
+* devolución permanente hacia la red de estaciones;
+* construcción de pronósticos a partir de observaciones históricas.
+
+La propuesta combina aportes provenientes de distintos campos del conocimiento.
 
 * meteorología;
 * geodesia;
-* ciencia ciudadana;
 * cartografía colaborativa;
+* ciencia ciudadana;
 * comunicación política;
 * análisis territorial;
 * sistemas de información geográfica.
 
-El resultado esperado es un método reproducible para transformar observaciones locales en pronósticos territoriales.
+La originalidad del laboratorio no reside en cada componente por separado, sino en la forma en que son articulados dentro de un único método.
 
 ---
 
-# 5. Aporte esperado
+# 5. Hipótesis del laboratorio
 
-Si la hipótesis resulta válida, el laboratorio habrá demostrado la factibilidad de un nuevo enfoque para producir evidencia territorial distribuida.
+Una red distribuida de estaciones entrenadas puede producir observaciones territoriales suficientemente consistentes como para identificar fenómenos emergentes antes de que éstos se consoliden como agenda pública.
 
-Ese método podría complementar —y no sustituir— herramientas consolidadas como las encuestas, el social listening o los estudios cualitativos.
-
-La comunicación política constituye el primer escenario experimental del proyecto.
-
-El método, sin embargo, aspira a ser aplicable a cualquier organización que necesite comprender tempranamente la evolución de conversaciones territoriales.
+Si esa hipótesis resulta válida, será posible construir pronósticos territoriales basados en evidencia distribuida.
 
 ---
 
-# Comparación de enfoques
+# 6. Aporte esperado
 
-| Método | Unidad de análisis | Escala | Frecuencia | Participación | Devolución |
-|----------|-------------------|---------|------------|---------------|------------|
-| Encuestas | Respuesta | Muestra | Baja | Baja | No |
-| Focus Group | Participante | Grupo | Muy baja | Alta | No |
-| Social Listening | Publicación | Digital | Alta | Pasiva | No |
-| Ciencia Ciudadana | Observación | Distribuida | Variable | Muy alta | Parcial |
-| OpenStreetMap | Edición | Territorial | Continua | Muy alta | Sí |
-| Servicio Meteorológico Social | Observación territorial | Distribuida | Continua | Muy alta | Sí |
+El principal aporte esperado del Servicio Meteorológico Social no consiste en desarrollar una nueva plataforma tecnológica.
 
-Esta comparación no busca establecer una jerarquía entre métodos.
+Consiste en diseñar un método reproducible para transformar observaciones distribuidas en evidencia territorial.
 
-Cada uno responde preguntas diferentes.
+La comunicación política constituye el primer caso de aplicación del laboratorio.
 
-El Servicio Meteorológico Social explora un espacio todavía poco desarrollado: la producción continua de evidencia territorial mediante una red distribuida de observadores con devolución permanente hacia la propia red.
+El método, sin embargo, aspira a ser reutilizable en cualquier organización que necesite comprender tempranamente la evolución de fenómenos territoriales y tomar decisiones fundamentadas en evidencia.
