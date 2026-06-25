@@ -161,3 +161,22 @@ Ese método podría complementar —y no sustituir— herramientas consolidadas 
 La comunicación política constituye el primer escenario experimental del proyecto.
 
 El método, sin embargo, aspira a ser aplicable a cualquier organización que necesite comprender tempranamente la evolución de conversaciones territoriales.
+
+---
+
+# Comparación de enfoques
+
+| Método | Unidad de análisis | Escala | Frecuencia | Participación | Devolución |
+|----------|-------------------|---------|------------|---------------|------------|
+| Encuestas | Respuesta | Muestra | Baja | Baja | No |
+| Focus Group | Participante | Grupo | Muy baja | Alta | No |
+| Social Listening | Publicación | Digital | Alta | Pasiva | No |
+| Ciencia Ciudadana | Observación | Distribuida | Variable | Muy alta | Parcial |
+| OpenStreetMap | Edición | Territorial | Continua | Muy alta | Sí |
+| Servicio Meteorológico Social | Observación territorial | Distribuida | Continua | Muy alta | Sí |
+
+Esta comparación no busca establecer una jerarquía entre métodos.
+
+Cada uno responde preguntas diferentes.
+
+El Servicio Meteorológico Social explora un espacio todavía poco desarrollado: la producción continua de evidencia territorial mediante una red distribuida de observadores con devolución permanente hacia la propia red.

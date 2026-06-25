@@ -22,7 +22,7 @@ El primer caso de aplicación del método será la **comunicación política**, 
 
 # Hipótesis general
 
-Así como una red de estaciones meteorológicas permite anticipar la evolución del clima físico, una red distribuida de observadores territoriales podría anticipar la evolución del clima social.
+Así como una red de estaciones meteorológicas permite anticipar la evolución del clima físico, una red distribuida de observadores territoriales podría anticipar la evolución de fenómenos sociales.
 
 El objetivo del laboratorio consiste en comprobar si esa hipótesis resiste el contacto con la realidad.
 

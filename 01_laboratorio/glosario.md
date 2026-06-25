@@ -115,12 +115,6 @@ Constituye una evidencia localizada.
 
 ---
 
-# Pronóstico
-
-Estimación sobre la evolución probable de la agenda social construida a partir de observaciones territoriales.
-
----
-
 # Red
 
 Conjunto organizado de estaciones distribuidas espacialmente.

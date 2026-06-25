@@ -2,6 +2,12 @@
 
 > Lista de trabajo del laboratorio.
 
+# Ahora mismo
+
+- Finalizar la edición metodológica v0.3.
+- Congelar la teoría.
+- Comenzar el diseño del primer experimento.
+
 ---
 
 # En curso

@@ -90,9 +90,23 @@ La confianza constituye el principal activo del laboratorio.
 
 ## Sobre el repositorio
 
-Este repositorio no documenta únicamente resultados.
+Este repositorio no documenta únicamente resultados, documenta el proceso mediante el cual fueron obtenidos.
 
-Documenta el proceso mediante el cual fueron obtenidos.
+---
+
+Toda afirmación importante deberá poder vincularse con un experimento.
+
+---
+
+Toda modificación metodológica deberá reflejarse en una nueva versión completa del documento correspondiente.
+
+---
+
+Cuando existan dos explicaciones posibles, se priorizará la más simple hasta que la evidencia indique lo contrario.
+
+---
+
+La incorporación de nuevos conceptos deberá reducir la complejidad del método y no aumentarla.
 
 ---
 

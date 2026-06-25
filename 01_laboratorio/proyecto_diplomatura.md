@@ -42,7 +42,7 @@ El proyecto explora la posibilidad de incorporar una fuente complementaria de in
 
 # 3. Hipótesis
 
-Una red distribuida de observadores, organizada mediante un protocolo simple y sostenida por un mecanismo permanente de devolución de conocimiento, puede detectar señales tempranas de la agenda social local y producir pronósticos útiles para la comunicación política.
+Una red distribuida de observadores, organizada mediante un protocolo simple y sostenida por un mecanismo permanente de devolución de conocimiento, puede detectar fenómenos territoriales emergentes antes de que se consoliden como agenda pública.
 
 ---
 

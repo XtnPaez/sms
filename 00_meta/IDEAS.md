@@ -77,3 +77,13 @@ Predicción de agenda política.
 ## Regla
 
 Si una idea aparece dos veces, probablemente merezca abandonar este documento y transformarse en una hipótesis.
+
+---
+
+## Criterio editorial
+
+Este documento no constituye un backlog.
+
+Las ideas aquí registradas no implican compromiso de implementación.
+
+Su única función consiste en evitar que una buena idea se pierda antes de madurar.

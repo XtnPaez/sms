@@ -124,7 +124,7 @@ Cada etapa podrá evolucionar a medida que avance el proyecto.
 
 # 6. La observación
 
-La observación constituye la unidad mínima del método.
+La observación constituye la unidad mínima registrada por una estación. A partir de múltiples observaciones, el laboratorio identifica eventos y fenómenos.
 
 Todo el laboratorio se construye sobre observaciones.
 
