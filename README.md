@@ -1,268 +1,139 @@
-# Servicio Meteorológico Social (SMS)
+# Servicio Meteorológico Social
 
-> **Laboratorio para el diseño, implementación y validación de un método de observación territorial distribuida capaz de producir evidencia, pronósticos y recomendaciones para la toma de decisiones.**
+> Laboratorio para el diseño y validación de un método reproducible de producción de evidencia territorial distribuida.
 
----
+El Servicio Meteorológico Social (SMS) es un laboratorio de investigación cuyo objetivo consiste en estudiar si una red distribuida de estaciones puede producir evidencia territorial suficiente para identificar fenómenos emergentes y construir pronósticos útiles para la toma de decisiones.
 
-# ¿Qué es este repositorio?
+El principal producto del laboratorio no será una aplicación informática.
 
-Este repositorio documenta el desarrollo del **Servicio Meteorológico Social (SMS)**.
-
-No es un proyecto de software.
-
-No es una tesis.
-
-No es únicamente un trabajo para una diplomatura.
-
-Es el cuaderno de laboratorio donde registramos el proceso de diseño de un método experimental para transformar observaciones territoriales distribuidas en conocimiento colectivo.
-
-El primer caso de aplicación del método será la **comunicación política**, pero el laboratorio está concebido para ser reutilizable en otros dominios donde resulte necesario comprender la evolución de conversaciones territoriales.
+Será un método capaz de sobrevivir a cualquier implementación tecnológica.
 
 ---
 
-# Hipótesis general
+# Cómo leer este repositorio
 
-Así como una red de estaciones meteorológicas permite anticipar la evolución del clima físico, una red distribuida de observadores territoriales podría anticipar la evolución de fenómenos sociales.
+Los documentos están organizados según el ciclo de construcción del conocimiento.
 
-El objetivo del laboratorio consiste en comprobar si esa hipótesis resiste el contacto con la realidad.
+No según la tecnología utilizada.
 
----
-
-# Filosofía
-
-El laboratorio se apoya sobre algunos principios simples.
-
-* Escuchar antes de comunicar.
-* Observar antes de interpretar.
-* Documentar antes de concluir.
-* Experimentar antes de afirmar.
-* Construir método antes que tecnología.
-
-La tecnología podrá cambiar.
-
-El método no.
-
----
-
-# Estado actual del laboratorio
+Cada carpeta responde una pregunta diferente.
 
 ```text
-████████░░░░░░░░░░░░░░░░░░
+00_meta
+¿Cómo se mantiene el laboratorio?
 
-Fundamentos               ✓
-Modelo conceptual         ✓
-Método                    ✓
+01_laboratorio
+¿Por qué existe el laboratorio?
 
-Infraestructura           □
-Experimentos              □
-Piloto                    □
-Validación                □
-Producto                  □
-Escalabilidad             □
+02_metodo
+¿Cómo funciona el método?
+
+03_experimentos
+¿Qué evidencia produjo el laboratorio?
+
+04_bibliografia
+¿Qué conocimiento previo utilizamos?
+
+99_material
+Material de apoyo.
 ```
-
-El objetivo actual consiste en construir y validar el primer experimento de campo.
-
----
-
-# Cómo recorrer este repositorio
-
-Los documentos fueron organizados siguiendo el ciclo natural de construcción del conocimiento.
-
-Se recomienda recorrerlos en el siguiente orden.
-
-```text
-MANIFIESTO
-
-↓
-
-FUNDAMENTOS
-
-↓
-
-GLOSARIO
-
-↓
-
-ESTADO DEL ARTE
-
-↓
-
-PROYECTO DIPLOMATURA
-
-↓
-
-MASTERPLAN
-
-↓
-
-MÉTODO
-
-↓
-
-EXPERIMENTOS
-```
-
-Cada documento responde una pregunta distinta.
-
----
-
-## Manifiesto
-
-¿Por qué vale la pena intentar construir un Servicio Meteorológico Social?
-
----
-
-## Fundamentos
-
-¿Cómo nació la idea?
-
-¿Qué analogías la inspiraron?
-
-¿Qué hipótesis pretende poner a prueba?
-
----
-
-## Glosario
-
-Define el lenguaje utilizado por el laboratorio.
-
-Todo concepto nuevo debería aparecer primero aquí.
-
----
-
-## Estado del Arte
-
-Describe qué métodos existen actualmente para producir evidencia territorial y cuál es el aporte diferencial del laboratorio.
-
----
-
-## Proyecto Diplomatura
-
-Representa el recorte experimental que será desarrollado durante la diplomatura.
-
-No describe el alcance completo del laboratorio.
-
----
-
-## Masterplan
-
-Reúne todas las ideas que exceden el MVP.
-
-Su función es conservar oportunidades futuras sin alterar el rumbo del experimento principal.
-
----
-
-## Método
-
-Describe el funcionamiento del Servicio Meteorológico Social.
-
-Aquí se encuentran:
-
-* roadmap;
-* protocolo de estaciones;
-* modelo de información;
-* métricas;
-* arquitectura;
-* stack tecnológico.
-
----
-
-## Experimentos
-
-Toda hipótesis debe validarse mediante experimentos.
-
-Cada prueba, exitosa o fallida, forma parte del conocimiento del laboratorio.
-
----
-
-# Cómo trabajar en este repositorio
-
-Este laboratorio utiliza algunas reglas simples.
-
-* Una idea vive en un único lugar.
-* Las hipótesis no son conclusiones.
-* Toda decisión importante queda registrada.
-* Los caminos descartados también producen conocimiento.
-* Antes de modificar un documento, verificar si la idea pertenece realmente a ese documento.
-* El MVP tiene prioridad sobre cualquier expansión futura.
-* Ningún documento está terminado.
 
 ---
 
 # Estructura
 
 ```text
-README.md
+sms/
 
-00_meta/
-    CHANGELOG.md
-    TODO.md
-    IDEAS.md
-    REGLAS_DEL_LABORATORIO.md
+├── README.md
 
-01_laboratorio/
-    manifiesto.md
-    fundamentos.md
-    glosario.md
-    estado_del_arte.md
-    proyecto_diplomatura.md
-    masterplan.md
-    preguntas.md
-    decisiones.md
-    going_nowhere.md
+├── 00_meta/
+│   ├── CHANGELOG.md
+│   ├── IDEAS.md
+│   ├── REGLAS_DEL_LABORATORIO.md
+│   └── TODO.md
 
-02_metodo/
-    roadmap.md
-    protocolo_estaciones.md
-    modelo_informacion.md
-    arquitectura_del_sistema.md
-    metricas.md
-    stack_tecnologico.md
+├── 01_laboratorio/
+│   ├── acta_fundacional.md
+│   ├── manifiesto.md
+│   ├── fundamentos.md
+│   ├── glosario.md
+│   ├── estado_del_arte.md
+│   ├── proyecto_diplomatura.md
+│   ├── masterplan.md
+│   ├── preguntas.md
+│   ├── decisiones.md
+│   └── going_nowhere.md
 
-03_experimentos/
+├── 02_metodo/
+│   ├── roadmap.md
+│   ├── protocolo_estaciones.md
+│   ├── modelo_informacion.md
+│   ├── arquitectura_del_sistema.md
+│   ├── metricas.md
+│   └── stack_tecnologico.md
 
-04_bibliografia/
+├── 03_experimentos/
 
-05_material/
+├── 04_bibliografia/
+
+└── 99_material/
 ```
 
 ---
 
-# Qué entendemos por éxito
+# Cómo trabajar en este repositorio
 
-El éxito del laboratorio no consiste en desarrollar una aplicación.
+Antes de crear un documento nuevo.
 
-Tampoco consiste en construir una comunidad grande.
+Preguntarse si realmente responde una pregunta diferente.
 
-El éxito consistirá en responder una pregunta.
+Antes de agregar un concepto nuevo.
 
-> ¿Es posible diseñar un método reproducible para transformar observaciones territoriales distribuidas en evidencia útil para anticipar la evolución del clima social?
+Verificar si puede explicarse utilizando los conceptos existentes.
 
-Si la respuesta es afirmativa, el laboratorio habrá producido un nuevo método.
+Antes de modificar un documento.
 
-Si la respuesta es negativa, el laboratorio habrá producido conocimiento igualmente valioso.
+Comprobar si el cambio corresponde realmente a ese documento.
 
-Ambos resultados justifican el experimento.
+Si modifica la teoría o el método.
 
----
+Reemplazar la versión completa del documento.
 
-# Principio editorial
-
-Este repositorio documenta la evolución de un método.
-
-Los documentos no representan versiones definitivas.
-
-Representan el estado del conocimiento alcanzado en cada momento del laboratorio.
-
-Por esa razón, la documentación constituye parte del experimento y no únicamente su registro.
+No agregar parches.
 
 ---
 
-# Licencia intelectual del laboratorio
+# Principios del laboratorio
 
-El conocimiento aquí documentado deberá poder ser comprendido, reproducido, criticado y mejorado.
+* El método tiene prioridad sobre la tecnología.
+* La evidencia tiene prioridad sobre la opinión.
+* La comunidad tiene prioridad sobre el dato.
+* Los experimentos tienen prioridad sobre las funcionalidades.
+* La simplicidad tiene prioridad sobre la complejidad.
 
-La mayor contribución del Servicio Meteorológico Social no será una herramienta informática.
+---
 
-Será un método para producir evidencia territorial distribuida.
+# Estado actual
+
+El laboratorio se encuentra finalizando la construcción de su marco metodológico.
+
+La siguiente etapa consiste en obtener evidencia mediante el primer experimento de campo.
+
+El estado de evolución del método puede consultarse en:
+
+`02_metodo/roadmap.md`
+
+---
+
+# Hipótesis central
+
+Una red distribuida de estaciones que realiza observaciones territoriales siguiendo un protocolo común puede producir evidencia suficiente para identificar fenómenos emergentes y construir pronósticos territoriales antes de que esos fenómenos se consoliden como agenda pública.
+
+La validez de esta hipótesis deberá establecerse experimentalmente.
+
+---
+
+# Licencia
+
+Por definir.
