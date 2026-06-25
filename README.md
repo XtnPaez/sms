@@ -1,189 +1,224 @@
 # Servicio Meteorológico Social (SMS)
 
-> Repositorio privado del laboratorio **Servicio Meteorológico Social**, dedicado a investigar, diseñar, implementar y documentar un método experimental para observar el territorio mediante una red distribuida de personas ("estaciones"), transformar esas observaciones en conocimiento colectivo y generar pronósticos útiles para la comunicación política basada en evidencia.
-
-Este repositorio no documenta únicamente un proyecto.
-
-Documenta el proceso mediante el cual intentamos descubrir si una idea merece convertirse en un método.
-
-No es un repositorio de software.
-
-No es un repositorio académico.
-
-Es el cuaderno de laboratorio del proyecto.
-
-Aquí registramos ideas, hipótesis, analogías, experimentos, decisiones, cambios de rumbo y aprendizajes. Cada documento representa el estado del conocimiento en un momento determinado y forma parte del recorrido intelectual del laboratorio.
+> **Laboratorio para el diseño, implementación y validación de un método de observación territorial distribuida capaz de producir evidencia, pronósticos y recomendaciones para la toma de decisiones.**
 
 ---
 
-# Cómo está organizado este repositorio
+# ¿Qué es este repositorio?
 
-El repositorio está organizado según el **ciclo de vida del conocimiento**, no según el tipo de archivo.
+Este repositorio documenta el desarrollo del **Servicio Meteorológico Social (SMS)**.
 
-Una idea nace como una intuición.
+No es un proyecto de software.
 
-Luego puede convertirse en una hipótesis.
+No es una tesis.
 
-Después en un experimento.
+No es únicamente un trabajo para una diplomatura.
 
-Más adelante en una decisión.
+Es el cuaderno de laboratorio donde registramos el proceso de diseño de un método experimental para transformar observaciones territoriales distribuidas en conocimiento colectivo.
 
-Y finalmente, si demuestra su utilidad, pasa a formar parte del método.
-
-La estructura del repositorio intenta conservar exactamente ese recorrido.
+El primer caso de aplicación del método será la **comunicación política**, pero el laboratorio está concebido para ser reutilizable en otros dominios donde resulte necesario comprender la evolución de conversaciones territoriales.
 
 ---
 
-# ¿Es la primera vez que abrís este repositorio?
+# Hipótesis general
 
-Leé los documentos en este orden.
+Así como una red de estaciones meteorológicas permite anticipar la evolución del clima físico, una red distribuida de observadores territoriales podría anticipar la evolución del clima social.
 
-1. **Manifiesto**
-2. **Fundamentos**
-3. **Glosario**
-4. **Proyecto Diplomatura**
-
-Con esos cuatro documentos deberías comprender la idea general del laboratorio, el lenguaje utilizado y el estado actual del proyecto.
+El objetivo del laboratorio consiste en comprobar si esa hipótesis resiste el contacto con la realidad.
 
 ---
 
-# Cómo usar este repositorio
+# Filosofía
 
-## Si querés entender por qué existe el proyecto
+El laboratorio se apoya sobre algunos principios simples.
 
-Leé **00_manifiesto.md**.
+* Escuchar antes de comunicar.
+* Observar antes de interpretar.
+* Documentar antes de concluir.
+* Experimentar antes de afirmar.
+* Construir método antes que tecnología.
 
-Es la declaración de principios del laboratorio.
+La tecnología podrá cambiar.
 
----
-
-## Si querés entender cómo nació la idea
-
-Leé **01_fundamentos.md**.
-
-Es el cuaderno de pensamiento del proyecto.
-
-Contiene el proceso creativo, las analogías, las preguntas, las hipótesis y el razonamiento que dio origen al Servicio Meteorológico Social.
-
-No pretende ser un documento ordenado.
-
-Pretende conservar el pensamiento.
+El método no.
 
 ---
 
-## Si aparece una palabra nueva
+# Estado actual del laboratorio
 
-Buscala primero en **02_glosario.md**.
+```text
+████████░░░░░░░░░░░░░░░░░░
 
-El laboratorio utiliza un lenguaje propio que irá evolucionando junto con el proyecto.
+Fundamentos               ✓
+Modelo conceptual         ✓
+Método                    ✓
 
----
+Infraestructura           □
+Experimentos              □
+Piloto                    □
+Validación                □
+Producto                  □
+Escalabilidad             □
+```
 
-## Si querés saber qué vamos a construir durante la diplomatura
-
-Leé **03_proyecto_diplomatura.md**.
-
-Ese documento representa únicamente el recorte del proyecto que será desarrollado durante la diplomatura.
-
----
-
-## Si aparece una idea nueva
-
-No modificar inmediatamente el proyecto.
-
-Registrar primero la idea en **04_masterplan.md**.
+El objetivo actual consiste en construir y validar el primer experimento de campo.
 
 ---
 
-## Si aparece una duda
+# Cómo recorrer este repositorio
 
-Agregarla a **05_preguntas.md**.
+Los documentos fueron organizados siguiendo el ciclo natural de construcción del conocimiento.
 
-Muchas preguntas terminarán convirtiéndose en experimentos.
-
----
-
-## Si tomamos una decisión
-
-Registrar la decisión en **06_decisiones.md**, junto con el motivo que la originó.
-
----
-
-## Si realizamos una prueba
-
-Documentarla en **03_experimentos/diario/**.
-
-Especialmente si el resultado fue negativo.
-
-Los experimentos fallidos también producen conocimiento.
-
----
-
-# Flujo del conocimiento
+Se recomienda recorrerlos en el siguiente orden.
 
 ```text
 MANIFIESTO
-      │
-      ▼
+
+↓
+
 FUNDAMENTOS
-      │
-      ▼
+
+↓
+
 GLOSARIO
-      │
-      ▼
-PROYECTO
-      │
-      ▼
-EXPERIMENTOS
-      │
-      ▼
-DECISIONES
-      │
-      ▼
+
+↓
+
+ESTADO DEL ARTE
+
+↓
+
+PROYECTO DIPLOMATURA
+
+↓
+
+MASTERPLAN
+
+↓
+
 MÉTODO
+
+↓
+
+EXPERIMENTOS
 ```
 
-Los documentos no representan estados del proyecto.
-
-Representan estados del conocimiento.
+Cada documento responde una pregunta distinta.
 
 ---
 
-# Reglas del laboratorio
+## Manifiesto
 
-1. Una idea vive en un solo lugar.
-2. El MVP tiene prioridad sobre las ideas futuras.
-3. Las hipótesis no son hechos.
-4. Siempre que sea posible, una discusión se resuelve mediante un experimento.
-5. Toda decisión importante deja un registro.
-6. Los caminos descartados también se documentan.
-7. Pensamiento divergente. Implementación convergente.
-8. Ningún documento está terminado.
-9. La realidad tiene prioridad sobre las hipótesis.
-10. Este repositorio documenta conocimiento, no solamente archivos.
-11. El proyecto de la diplomatura es un recorte del proyecto general.
-12. Antes de escribir, decidir dónde debe vivir cada idea.
-13. Los documentos describen estados del conocimiento, no estados del proyecto.
-14. Preferimos una idea documentada hoy antes que una idea perfecta que nunca fue escrita.
+¿Por qué vale la pena intentar construir un Servicio Meteorológico Social?
 
 ---
 
-# Estructura del repositorio
+## Fundamentos
 
-```
+¿Cómo nació la idea?
+
+¿Qué analogías la inspiraron?
+
+¿Qué hipótesis pretende poner a prueba?
+
+---
+
+## Glosario
+
+Define el lenguaje utilizado por el laboratorio.
+
+Todo concepto nuevo debería aparecer primero aquí.
+
+---
+
+## Estado del Arte
+
+Describe qué métodos existen actualmente para producir evidencia territorial y cuál es el aporte diferencial del laboratorio.
+
+---
+
+## Proyecto Diplomatura
+
+Representa el recorte experimental que será desarrollado durante la diplomatura.
+
+No describe el alcance completo del laboratorio.
+
+---
+
+## Masterplan
+
+Reúne todas las ideas que exceden el MVP.
+
+Su función es conservar oportunidades futuras sin alterar el rumbo del experimento principal.
+
+---
+
+## Método
+
+Describe el funcionamiento del Servicio Meteorológico Social.
+
+Aquí se encuentran:
+
+* roadmap;
+* protocolo de estaciones;
+* modelo de información;
+* métricas;
+* arquitectura;
+* stack tecnológico.
+
+---
+
+## Experimentos
+
+Toda hipótesis debe validarse mediante experimentos.
+
+Cada prueba, exitosa o fallida, forma parte del conocimiento del laboratorio.
+
+---
+
+# Cómo trabajar en este repositorio
+
+Este laboratorio utiliza algunas reglas simples.
+
+* Una idea vive en un único lugar.
+* Las hipótesis no son conclusiones.
+* Toda decisión importante queda registrada.
+* Los caminos descartados también producen conocimiento.
+* Antes de modificar un documento, verificar si la idea pertenece realmente a ese documento.
+* El MVP tiene prioridad sobre cualquier expansión futura.
+* Ningún documento está terminado.
+
+---
+
+# Estructura
+
+```text
 README.md
 
+00_meta/
+    CHANGELOG.md
+    TODO.md
+    IDEAS.md
+    REGLAS_DEL_LABORATORIO.md
+
 01_laboratorio/
-│
-├── 00_manifiesto.md
-├── 01_fundamentos.md
-├── 02_glosario.md
-├── 03_proyecto_diplomatura.md
-├── 04_masterplan.md
-├── 05_preguntas.md
-└── 06_decisiones.md
+    manifiesto.md
+    fundamentos.md
+    glosario.md
+    estado_del_arte.md
+    proyecto_diplomatura.md
+    masterplan.md
+    preguntas.md
+    decisiones.md
+    going_nowhere.md
 
 02_metodo/
+    roadmap.md
+    protocolo_estaciones.md
+    modelo_informacion.md
+    arquitectura_del_sistema.md
+    metricas.md
+    stack_tecnologico.md
 
 03_experimentos/
 
@@ -194,10 +229,40 @@ README.md
 
 ---
 
-# Filosofía del laboratorio
+# Qué entendemos por éxito
 
-No intentamos demostrar que una idea es correcta.
+El éxito del laboratorio no consiste en desarrollar una aplicación.
 
-Intentamos descubrir si resiste el contacto con la realidad.
+Tampoco consiste en construir una comunidad grande.
 
-El mayor activo de este repositorio no será el software que eventualmente construyamos, sino el conocimiento acumulado durante el camino.
+El éxito consistirá en responder una pregunta.
+
+> ¿Es posible diseñar un método reproducible para transformar observaciones territoriales distribuidas en evidencia útil para anticipar la evolución del clima social?
+
+Si la respuesta es afirmativa, el laboratorio habrá producido un nuevo método.
+
+Si la respuesta es negativa, el laboratorio habrá producido conocimiento igualmente valioso.
+
+Ambos resultados justifican el experimento.
+
+---
+
+# Principio editorial
+
+Este repositorio documenta la evolución de un método.
+
+Los documentos no representan versiones definitivas.
+
+Representan el estado del conocimiento alcanzado en cada momento del laboratorio.
+
+Por esa razón, la documentación constituye parte del experimento y no únicamente su registro.
+
+---
+
+# Licencia intelectual del laboratorio
+
+El conocimiento aquí documentado deberá poder ser comprendido, reproducido, criticado y mejorado.
+
+La mayor contribución del Servicio Meteorológico Social no será una herramienta informática.
+
+Será un método para producir evidencia territorial distribuida.
